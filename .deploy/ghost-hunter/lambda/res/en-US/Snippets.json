@@ -1,0 +1,92 @@
+{
+    "intro": "<audio src='soundbank://soundlibrary/horror/horror_12'/>",
+
+    "enter": "<audio src='soundbank://soundlibrary/horror/horror_01'/>",
+
+    "echo": "<audio src='soundbank://soundlibrary/horror/horror_04'/>",
+
+    "phase": "<audio src='soundbank://soundlibrary/horror/horror_06'/>",
+
+    "scream": "<audio src='soundbank://soundlibrary/horror/horror_08'/>",
+    
+    "key1":"<audio src='soundbank://soundlibrary/doors/doors_key_lock/key_lock_01'/>",
+    
+    "lose":"<audio src='soundbank://soundlibrary/gameshow/gameshow_02'/>",
+    
+    "win":"<audio src='soundbank://soundlibrary/gameshow/gameshow_01'/>",
+    
+    "ghostScream": "<audio src='soundbank://soundlibrary/horror/horror_09'/>",
+
+    "door": "<audio src='soundbank://soundlibrary/horror/horror_10'/>",
+
+    "box": "<audio src='soundbank://soundlibrary/horror/horror_01'/>",
+
+    "emf": "<audio src='soundbank://soundlibrary/electrical/buzz_hums/buzz_hums_02'/>",
+
+    "rand1": "<audio src='soundbank://soundlibrary/electrical/feedback_mics/feedback_mics_01'/>",
+
+    "tesla": "<audio src='soundbank://soundlibrary/electrical/arcs_sparks/arcs_sparks_01'/>",
+
+    "rand2": "<audio src='soundbank://soundlibrary/explosions/electrical/electrical_02'/>",
+
+    "rand3": "<audio src='soundbank://soundlibrary/air/fire_extinguisher/fire_extinguisher_05'/>",
+
+    "howl": "<audio src='soundbank://soundlibrary/aircrafts/futuristic/futuristic_03'/>",
+
+    "rand4": "<audio src='soundbank://soundlibrary/backgrounds_ambience/carnivals_fairs/carnivals_fairs_01'/>",
+
+    "rand5": "<audio src='soundbank://soundlibrary/chairs/seats_stools/seats_stools_03'/>",
+
+    "door2": "<audio src='soundbank://soundlibrary/chairs/seats_stools/seats_stools_05'/>",
+
+    "turn": "<audio src='soundbank://soundlibrary/chairs/seats_stools/seats_stools_08'/>",
+
+    "stairs": "<audio src='soundbank://soundlibrary/human/amzn_sfx_human_walking_02'/>",
+
+    "steps": "<audio src='soundbank://soundlibrary/footsteps/stairs/stairs_02'/>",
+
+    "run": "<audio src='soundbank://soundlibrary/footsteps/stairs/stairs_06'/>",
+
+    "fast": "<audio src='soundbank://soundlibrary/footsteps/stairs/stairs_12'/>",
+
+    "banish": "<audio src='soundbank://soundlibrary/magic_spells/magic_spells_11'/>",
+
+    "bind": "<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>",
+
+    "camera": "<audio src='soundbank://soundlibrary/camera/camera_04'/>",
+
+    "weather1": "<audio src='soundbank://soundlibrary/nature/amzn_sfx_lightning_strike_01'/>",
+
+    "weather2": "<audio src='soundbank://soundlibrary/nature/amzn_sfx_lightning_strike_02'/>",
+
+    "flashlight": "<audio src='soundbank://soundlibrary/switches_levers/switches_levers_15'/>",
+    "step2": "<audio src='soundbank://soundlibrary/footsteps/concrete/concrete_08'/>",
+
+    "step3": "<audio src='soundbank://soundlibrary/human/amzn_sfx_human_walking_01'/>",
+
+    "step4": "<audio src='soundbank://soundlibrary/human/amzn_sfx_human_walking_03'/>",
+
+    "step5": "<audio src='soundbank://soundlibrary/footsteps/stairs/stairs_08'/>",
+    
+    "laugh": "<audio src='soundbank://soundlibrary/human/amzn_sfx_laughter_giggle_02",
+    
+    "clock":"<audio src='soundbank://soundlibrary/alarms/beeps_and_bloops/clock_01'/>",
+    
+    "bye":"<audio src='soundbank://soundlibrary/scifi/amzn_sfx_scifi_zap_backwards_01'/>",
+    
+    "baton": "<audio src'soundbank://soundlibrary/alarms/beeps_and_bloops/woosh_02'/>",
+    "smash": "<audio src='soundbank://soundlibrary/alarms/beeps_and_bloops/zap_01'/>",
+    "sense": "<audio src='soundbank://soundlibrary/scifi/amzn_sfx_scifi_radar_high_ping_01'/>",
+    "outside": "<audio src='soundbank://soundlibrary/animals/amzn_sfx_raven_caw_2x_01'/>",
+    "rats": "<audio src='soundbank://soundlibrary/animals/amzn_sfx_rat_squeaks_01'/>",
+    "earth":"<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>",
+    "open": "<audio src='soundbank://soundlibrary/chairs/seats_stools/seats_stools_07'/>",
+    "paper":"<audio src='soundbank://soundlibrary/cloth_leather_paper/books/books_08'/>",
+    "ring":"<audio src='soundbank://soundlibrary/cloth_leather_paper/money_coins/money_coins_05'/>",
+    "lock": "<audio src='soundbank://soundlibrary/doors/doors_key_lock/key_lock_03'/>",
+    "encounter1": "<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_12'/>",
+    "encounter2":"<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_15'/>",
+    "spiritWail": "<audio src='soundbank://soundlibrary/magic/amzn_sfx_ghost_spooky_01'/>",
+    "shadowWail": "<audio src='soundbank://soundlibrary/magic/amzn_sfx_ghost_spooky_04'/>",
+    "specterWail": "<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_06'/>",
+    "apparitionWail": "<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_10'/>"}

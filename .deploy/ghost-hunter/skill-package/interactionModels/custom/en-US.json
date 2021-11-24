@@ -1,0 +1,340 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "intents": [
+                {
+                    "name": "flexaIntent",
+                    "samples": [
+                        "attack",
+                        "attack it",
+                        "kill it"
+                    ]
+                },
+                {
+                    "name": "flexbIntent",
+                    "samples": [
+                        "use camera",
+                        "take picture",
+                        "snap picture",
+                        "take photo",
+                        "take photograph",
+                        "snap photo",
+                        "snap photograph"
+                    ]
+                },
+                {
+                    "name": "flexcIntent",
+                    "samples": [
+                        "run",
+                        "flee",
+                        "escape",
+                        "get out of here",
+                        "leave"
+                    ]
+                },
+                {
+                    "name": "flexdIntent",
+                    "samples": [
+                        "use pendant",
+                        "pendant",
+                        "try pendant"
+                    ]
+                },
+                {
+                    "name": "flexeIntent",
+                    "samples": [
+                        "use baton",
+                        "try baton",
+                        "baton"
+                    ]
+                },
+                {
+                    "name": "flexfIntent",
+                    "samples": [
+                        "look around",
+                        "look at room",
+                        "look"
+                    ]
+                },
+                {
+                    "name": "flexgIntent",
+                    "samples": [
+                        "turn on flashlight",
+                        "flashlight",
+                        "turn off flashlight",
+                        "use flashlight"
+                    ]
+                },
+                {
+                    "name": "flexhIntent",
+                    "samples": [
+                        "use sense",
+                        "sense the ghost",
+                        "try to sense",
+                        "sense"
+                    ]
+                },
+                {
+                    "name": "flexiIntent",
+                    "samples": [
+                        "go to bathroom",
+                        "use the bathroom",
+                        "to the bathroom",
+                        "bathroom",
+                        "where is the bathroom",
+                        "restroom",
+                        "use the restroom",
+                        "to the restroom",
+                        "where is the restroom",
+                        "toilet",
+                        "use the toilet",
+                        "go to toilet",
+                        "where is the toilet"
+                    ]
+                },
+                {
+                    "name": "flexjIntent",
+                    "samples": [
+                        "crucifix",
+                        "i want the crucifix",
+                        "the crucifix",
+                        "i choose crucifix",
+                        "i'll take the crucifix"
+                    ]
+                },
+                {
+                    "name": "flexkIntent",
+                    "samples": [
+                        "totem",
+                        "i want the totem",
+                        "the totem",
+                        "i choose totem",
+                        "i'll take the totem"
+                    ]
+                },
+                {
+                    "name": "flexlIntent",
+                    "samples": [
+                        "spell",
+                        "i want the spell",
+                        "the spell",
+                        "a spell",
+                        "i choose the spell",
+                        "i'll take the spell"
+                    ]
+                },
+                {
+                    "name": "flexmIntent",
+                    "samples": [
+                        "go to dining room",
+                        "dining room",
+                        "to dining room",
+                        "the dining room"
+                    ]
+                },
+                {
+                    "name": "flexnIntent",
+                    "samples": [
+                        "go to foyer",
+                        "foyer",
+                        "move to foyer",
+                        "to foyer",
+                        "to the foyer"
+                    ]
+                },
+                {
+                    "name": "flexoIntent",
+                    "samples": [
+                        "look at coffee table",
+                        "examine coffee table",
+                        "check coffee table",
+                        "check out coffee table",
+                        "look at table",
+                        "check table",
+                        "examine table"
+                    ]
+                },
+                {
+                    "name": "flexpIntent",
+                    "samples": [
+                        "kitchen",
+                        "go to kitchen",
+                        "the kitchen",
+                        "go kitchen",
+                        "into the kitchen"
+                    ]
+                },
+                {
+                    "name": "flexqIntent",
+                    "samples": [
+                        "check cabinet",
+                        "examine cabinet",
+                        "look at cabinet",
+                        "check curio cabinet",
+                        "examine curio cabinet",
+                        "look at curio cabinet"
+                    ]
+                },
+                {
+                    "name": "flexrIntent",
+                    "samples": [
+                        "living room",
+                        "go to living room",
+                        "to living room",
+                        "go living room",
+                        "the living room"
+                    ]
+                },
+                {
+                    "name": "flexsIntent",
+                    "samples": [
+                        "stairs",
+                        "use the stairs",
+                        "go to stairs",
+                        "to the stairs",
+                        "the stairs",
+                        "use stairs",
+                        "take stairs"
+                    ]
+                },
+                {
+                    "name": "flextIntent",
+                    "samples": [
+                        "get paper",
+                        "pick up paper",
+                        "look at paper",
+                        "check paper",
+                        "examine paper"
+                    ]
+                },
+                {
+                    "name": "flexuIntent",
+                    "samples": [
+                        "check box",
+                        "look at box",
+                        "open box",
+                        "examine box",
+                        "look at wooden box",
+                        "check wooden box",
+                        "examine wooden box"
+                    ]
+                },
+                {
+                    "name": "flexvIntent",
+                    "samples": [
+                        "check vase",
+                        "check large vase",
+                        "look at large vase",
+                        "look at vase",
+                        "examine vase",
+                        "examine large vase"
+                    ]
+                },
+                {
+                    "name": "flexwIntent",
+                    "samples": [
+                        "check chest",
+                        "check wooden chest",
+                        "examine chest",
+                        "examine wooden chest",
+                        "look at chest",
+                        "look at wooden chest"
+                    ]
+                },
+                {
+                    "name": "flexxIntent",
+                    "samples": [
+                        "go to patio",
+                        "patio",
+                        "to patio"
+                    ]
+                },
+                {
+                    "name": "flexyIntent",
+                    "samples": [
+                        "look painting",
+                        "check painting",
+                        "look at painting",
+                        "examine painting"
+                    ]
+                },
+                {
+                    "name": "flexzIntent",
+                    "samples": [
+                        "take a break"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent"
+                },
+                {
+                    "name": "AMAZON.HelpIntent"
+                },
+                {
+                    "name": "AMAZON.LoopOffIntent"
+                },
+                {
+                    "name": "AMAZON.LoopOnIntent"
+                },
+                {
+                    "name": "AMAZON.NextIntent"
+                },
+                {
+                    "name": "AMAZON.NoIntent"
+                },
+                {
+                    "name": "AMAZON.PauseIntent"
+                },
+                {
+                    "name": "AMAZON.PreviousIntent"
+                },
+                {
+                    "name": "AMAZON.RepeatIntent"
+                },
+                {
+                    "name": "AMAZON.ResumeIntent"
+                },
+                {
+                    "name": "AMAZON.ShuffleOffIntent"
+                },
+                {
+                    "name": "AMAZON.ShuffleOnIntent"
+                },
+                {
+                    "name": "AMAZON.StartOverIntent"
+                },
+                {
+                    "name": "AMAZON.StopIntent"
+                },
+                {
+                    "name": "AMAZON.YesIntent"
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent"
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent"
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent"
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent"
+                },
+                {
+                    "name": "AMAZON.PageUpIntent"
+                },
+                {
+                    "name": "AMAZON.PageDownIntent"
+                },
+                {
+                    "name": "AMAZON.MoreIntent"
+                },
+                {
+                    "name": "AMAZON.FallbackIntent"
+                }
+            ],
+            "invocationName": "ghost hunter"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/cfn-deployer": {
+          "deployState": {
+            "default": {
+              "s3": {
+                "bucket": "ask-apparition-crusher-default-useast1-1636660640563",
+                "key": "endpoint/build.zip"
+              },
+              "stackId": "arn:aws:cloudformation:us-east-1:393377161219:stack/ask-apparition-crusher-default-skillStack-1636660640563/a8c97d60-4329-11ec-b4b8-0e65cf2cb4a1",
+              "outputs": [
+                {
+                  "OutputKey": "SkillEndpoint",
+                  "OutputValue": "arn:aws:lambda:us-east-1:393377161219:function:apparition-crusher-function",
+                  "Description": "LambdaARN for the regional endpoint"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.3afd91ed-47be-4ea3-936a-d78199ba7143",
+      "skillMetadata": {
+        "lastDeployHash": "6OgkfF/NQ8WzjS6JbIoKJHPzeFE="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "ah8zM04mGvtzG2bJbLUaWbUzP2o="
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,7 @@
 {
-
+    "CustomWeapons": [
+        "spell",
+        "crucifix",
+        "totem"
+    ]
 }

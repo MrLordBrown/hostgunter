@@ -93,38 +93,22 @@
                     ]
                 },
                 {
+                    "name": "CatchAllSlotIntent",
+                    "samples": [
+                        "{weaponChoiceName}",
+                        "i'll take a {weaponChoiceName}",
+                        "a {weaponChoiceName}",
+                        "the {weaponChoiceName}"
+                    ],
+                    "slots": [
+                        {
+                            "name": "weaponChoiceName",
+                            "type": "CustomWeapons"
+                        }
+                    ]
+                },
+                {
                     "name": "flexjIntent",
-                    "samples": [
-                        "crucifix",
-                        "i want the crucifix",
-                        "the crucifix",
-                        "i choose crucifix",
-                        "i'll take the crucifix"
-                    ]
-                },
-                {
-                    "name": "flexkIntent",
-                    "samples": [
-                        "totem",
-                        "i want the totem",
-                        "the totem",
-                        "i choose totem",
-                        "i'll take the totem"
-                    ]
-                },
-                {
-                    "name": "flexlIntent",
-                    "samples": [
-                        "spell",
-                        "i want the spell",
-                        "the spell",
-                        "a spell",
-                        "i choose the spell",
-                        "i'll take the spell"
-                    ]
-                },
-                {
-                    "name": "flexmIntent",
                     "samples": [
                         "go to dining room",
                         "dining room",
@@ -133,7 +117,7 @@
                     ]
                 },
                 {
-                    "name": "flexnIntent",
+                    "name": "flexkIntent",
                     "samples": [
                         "go to foyer",
                         "foyer",
@@ -143,7 +127,7 @@
                     ]
                 },
                 {
-                    "name": "flexoIntent",
+                    "name": "flexlIntent",
                     "samples": [
                         "look at coffee table",
                         "examine coffee table",
@@ -155,7 +139,7 @@
                     ]
                 },
                 {
-                    "name": "flexpIntent",
+                    "name": "flexmIntent",
                     "samples": [
                         "kitchen",
                         "go to kitchen",
@@ -165,7 +149,7 @@
                     ]
                 },
                 {
-                    "name": "flexqIntent",
+                    "name": "flexnIntent",
                     "samples": [
                         "check cabinet",
                         "examine cabinet",
@@ -176,7 +160,7 @@
                     ]
                 },
                 {
-                    "name": "flexrIntent",
+                    "name": "flexoIntent",
                     "samples": [
                         "living room",
                         "go to living room",
@@ -186,7 +170,7 @@
                     ]
                 },
                 {
-                    "name": "flexsIntent",
+                    "name": "flexpIntent",
                     "samples": [
                         "stairs",
                         "use the stairs",
@@ -198,7 +182,7 @@
                     ]
                 },
                 {
-                    "name": "flextIntent",
+                    "name": "flexqIntent",
                     "samples": [
                         "get paper",
                         "pick up paper",
@@ -208,7 +192,7 @@
                     ]
                 },
                 {
-                    "name": "flexuIntent",
+                    "name": "flexrIntent",
                     "samples": [
                         "check box",
                         "look at box",
@@ -220,7 +204,7 @@
                     ]
                 },
                 {
-                    "name": "flexvIntent",
+                    "name": "flexsIntent",
                     "samples": [
                         "check vase",
                         "check large vase",
@@ -231,7 +215,7 @@
                     ]
                 },
                 {
-                    "name": "flexwIntent",
+                    "name": "flextIntent",
                     "samples": [
                         "check chest",
                         "check wooden chest",
@@ -242,7 +226,7 @@
                     ]
                 },
                 {
-                    "name": "flexxIntent",
+                    "name": "flexuIntent",
                     "samples": [
                         "go to patio",
                         "patio",
@@ -250,7 +234,7 @@
                     ]
                 },
                 {
-                    "name": "flexyIntent",
+                    "name": "flexvIntent",
                     "samples": [
                         "look painting",
                         "check painting",
@@ -259,7 +243,7 @@
                     ]
                 },
                 {
-                    "name": "flexzIntent",
+                    "name": "flexwIntent",
                     "samples": [
                         "take a break"
                     ]
@@ -334,7 +318,29 @@
                     "name": "AMAZON.FallbackIntent"
                 }
             ],
-            "invocationName": "ghost hunter"
+            "invocationName": "ghost hunter",
+            "types": [
+                {
+                    "name": "CustomWeapons",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "spell"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crucifix"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "totem"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     }
 }

@@ -19321,60 +19321,20 @@
                             }
                         },
                         {
-                            "directionType": "choice",
+                            "directionType": "slot",
                             "parameters": {
-                                "utterances": [
-                                    "crucifix",
-                                    "I want the crucifix",
-                                    "the crucifix",
-                                    "I choose crucifix",
-                                    "I'll take the crucifix"
-                                ],
-                                "saveToHistory": "true",
-                                "directions": [
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "destroy",
-                                            "variableValue": "crucifix"
-                                        }
-                                    },
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "weaponz",
-                                            "variableValue": "The crucifix works best against those ghost who wish to torment you."
-                                        }
-                                    },
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "attackz",
-                                            "variableValue": "You brandish the crucifix and stand before the entity."
-                                        }
-                                    },
-                                    {
-                                        "directionType": "go to",
-                                        "parameters": {
-                                            "target": "weapon got",
-                                            "targetSceneProperty": "narration"
-                                        }
-                                    }
-                                ],
-                                "utteranceIDs": [
-                                    "flexjIntent"
-                                ]
+                                "variableName": "weaponChoiceName",
+                                "variableType": "CustomWeapons"
                             }
                         },
                         {
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "totem",
-                                    "I want the totem",
-                                    "the totem",
-                                    "I choose totem",
-                                    "I'll take the totem"
+                                    "{weaponChoiceName}",
+                                    "I'll take a {weaponChoiceName}",
+                                    "a {weaponChoiceName}",
+                                    "the {weaponChoiceName}"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -19382,74 +19342,98 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "destroy",
-                                            "variableValue": "totem"
+                                            "variableValue": "{weaponChoiceName}"
                                         }
                                     },
                                     {
-                                        "directionType": "set",
+                                        "directionType": "condition",
                                         "parameters": {
-                                            "variableName": "weaponz",
-                                            "variableValue": "The totem generates its own piercing light."
+                                            "condition": "{destroy} == 'crucifix'",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "weaponz",
+                                                        "variableValue": "The crucifix works best against those ghost who wish to torment you."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "attackz",
+                                                        "variableValue": "You brandish the crucifix and stand before the entity."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "weapon got",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "directionType": "set",
+                                        "directionType": "condition",
                                         "parameters": {
-                                            "variableName": "attackz",
-                                            "variableValue": "You extend the totem in front of you and let its mystical energies shine."
+                                            "condition": "{destroy} == 'totem'",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "weaponz",
+                                                        "variableValue": "The totem generates its own piercing light."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "attackz",
+                                                        "variableValue": "You extend the totem in front of you and let its mystical energies shine."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "weapon got",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "directionType": "go to",
+                                        "directionType": "condition",
                                         "parameters": {
-                                            "target": "weapon got",
-                                            "targetSceneProperty": "narration"
+                                            "condition": "{destroy} == 'spell'",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "weaponz",
+                                                        "variableValue": "The incantation is spoke with powerful words against those who wander."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "attackz",
+                                                        "variableValue": "You calmly recite the spell and feel the air around you become light and electric."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "weapon got",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
                                         }
                                     }
                                 ],
-                                "utteranceIDs": [
-                                    "flexkIntent"
-                                ]
-                            }
-                        },
-                        {
-                            "directionType": "choice",
-                            "parameters": {
-                                "utterances": [
-                                    "spell",
-                                    "I want the spell",
-                                    "the spell",
-                                    "a spell",
-                                    "I choose the spell",
-                                    "I'll take the spell"
-                                ],
-                                "saveToHistory": "true",
-                                "directions": [
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "destroy",
-                                            "variableValue": "incantation"
-                                        }
-                                    },
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "weaponz",
-                                            "variableValue": "The incantation is spoke with powerful words against those who wander."
-                                        }
-                                    },
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "attackz",
-                                            "variableValue": "You calmly recite the spell and feel the air around you become light and electric."
-                                        }
-                                    }
-                                ],
-                                "utteranceIDs": [
-                                    "flexlIntent"
-                                ]
+                                "utteranceIDs": []
                             }
                         },
                         {
@@ -20762,7 +20746,7 @@
             ],
             "id": "need weapon",
             "customProperties": {
-                "sourceLocation": 2659,
+                "sourceLocation": 2590,
                 "sourceID": "items.abc"
             }
         },
@@ -21425,7 +21409,7 @@
             ],
             "id": "weapon got",
             "customProperties": {
-                "sourceLocation": 2712,
+                "sourceLocation": 2643,
                 "sourceID": "items.abc"
             }
         },
@@ -22177,7 +22161,7 @@
             ],
             "id": "items",
             "customProperties": {
-                "sourceLocation": 2795,
+                "sourceLocation": 2726,
                 "sourceID": "items.abc"
             }
         },
@@ -22847,7 +22831,7 @@
             ],
             "id": "watch",
             "customProperties": {
-                "sourceLocation": 3150,
+                "sourceLocation": 3081,
                 "sourceID": "items.abc"
             }
         },
@@ -23517,7 +23501,7 @@
             ],
             "id": "film",
             "customProperties": {
-                "sourceLocation": 3377,
+                "sourceLocation": 3308,
                 "sourceID": "items.abc"
             }
         },
@@ -24187,7 +24171,7 @@
             ],
             "id": "ring",
             "customProperties": {
-                "sourceLocation": 3469,
+                "sourceLocation": 3400,
                 "sourceID": "items.abc"
             }
         },
@@ -24857,7 +24841,7 @@
             ],
             "id": "sacred text",
             "customProperties": {
-                "sourceLocation": 3787,
+                "sourceLocation": 3718,
                 "sourceID": "items.abc"
             }
         },
@@ -25527,7 +25511,7 @@
             ],
             "id": "medicine",
             "customProperties": {
-                "sourceLocation": 4054,
+                "sourceLocation": 3985,
                 "sourceID": "items.abc"
             }
         },
@@ -26204,7 +26188,7 @@
             ],
             "id": "pendant",
             "customProperties": {
-                "sourceLocation": 4224,
+                "sourceLocation": 4155,
                 "sourceID": "items.abc"
             }
         },
@@ -26871,7 +26855,7 @@
             ],
             "id": "battery",
             "customProperties": {
-                "sourceLocation": 4508,
+                "sourceLocation": 4439,
                 "sourceID": "items.abc"
             }
         },
@@ -27538,7 +27522,7 @@
             ],
             "id": "super film",
             "customProperties": {
-                "sourceLocation": 4677,
+                "sourceLocation": 4608,
                 "sourceID": "items.abc"
             }
         },
@@ -28201,7 +28185,7 @@
             ],
             "id": "nothing",
             "customProperties": {
-                "sourceLocation": 4824,
+                "sourceLocation": 4755,
                 "sourceID": "items.abc"
             }
         },
@@ -28864,7 +28848,7 @@
             ],
             "id": "no paper",
             "customProperties": {
-                "sourceLocation": 5216,
+                "sourceLocation": 5147,
                 "sourceID": "items.abc"
             }
         },
@@ -29527,7 +29511,7 @@
             ],
             "id": "got paper",
             "customProperties": {
-                "sourceLocation": 5358,
+                "sourceLocation": 5289,
                 "sourceID": "items.abc"
             }
         },
@@ -30197,7 +30181,7 @@
             ],
             "id": "baton",
             "customProperties": {
-                "sourceLocation": 5582,
+                "sourceLocation": 5513,
                 "sourceID": "items.abc"
             }
         },
@@ -30860,7 +30844,7 @@
             ],
             "id": "no sense",
             "customProperties": {
-                "sourceLocation": 5749,
+                "sourceLocation": 5680,
                 "sourceID": "items.abc"
             }
         },
@@ -31523,7 +31507,7 @@
             ],
             "id": "sense",
             "customProperties": {
-                "sourceLocation": 5830,
+                "sourceLocation": 5761,
                 "sourceID": "items.abc"
             }
         },
@@ -32201,7 +32185,7 @@
             ],
             "id": "baton attack",
             "customProperties": {
-                "sourceLocation": 5987,
+                "sourceLocation": 5918,
                 "sourceID": "items.abc"
             }
         },
@@ -32864,7 +32848,7 @@
             ],
             "id": "void baton",
             "customProperties": {
-                "sourceLocation": 6233,
+                "sourceLocation": 6164,
                 "sourceID": "items.abc"
             }
         },
@@ -33527,7 +33511,7 @@
             ],
             "id": "no baton",
             "customProperties": {
-                "sourceLocation": 6421,
+                "sourceLocation": 6352,
                 "sourceID": "items.abc"
             }
         },
@@ -34204,7 +34188,7 @@
             ],
             "id": "flash off",
             "customProperties": {
-                "sourceLocation": 6490,
+                "sourceLocation": 6421,
                 "sourceID": "items.abc"
             }
         },
@@ -34874,7 +34858,7 @@
             ],
             "id": "flash on",
             "customProperties": {
-                "sourceLocation": 6693,
+                "sourceLocation": 6624,
                 "sourceID": "items.abc"
             }
         },
@@ -35567,7 +35551,7 @@
             ],
             "id": "other light",
             "customProperties": {
-                "sourceLocation": 6879,
+                "sourceLocation": 6810,
                 "sourceID": "items.abc"
             }
         },
@@ -39223,7 +39207,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexmIntent"
+                                    "flexjIntent"
                                 ]
                             }
                         },
@@ -39261,7 +39245,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexnIntent"
+                                    "flexkIntent"
                                 ]
                             }
                         },
@@ -39354,7 +39338,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexoIntent"
+                                    "flexlIntent"
                                 ]
                             }
                         },
@@ -41380,7 +41364,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexpIntent"
+                                    "flexmIntent"
                                 ]
                             }
                         },
@@ -41472,7 +41456,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexqIntent"
+                                    "flexnIntent"
                                 ]
                             }
                         },
@@ -41511,7 +41495,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexrIntent"
+                                    "flexoIntent"
                                 ]
                             }
                         },
@@ -43567,7 +43551,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexoIntent"
+                                    "flexlIntent"
                                 ]
                             }
                         },
@@ -43606,7 +43590,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexpIntent"
+                                    "flexmIntent"
                                 ]
                             }
                         },
@@ -43645,7 +43629,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexsIntent"
+                                    "flexpIntent"
                                 ]
                             }
                         },
@@ -43681,7 +43665,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexrIntent"
+                                    "flexoIntent"
                                 ]
                             }
                         },
@@ -46474,7 +46458,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexnIntent"
+                                    "flexkIntent"
                                 ]
                             }
                         },
@@ -46535,7 +46519,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flextIntent"
+                                    "flexqIntent"
                                 ]
                             }
                         },
@@ -46635,7 +46619,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexuIntent"
+                                    "flexrIntent"
                                 ]
                             }
                         },
@@ -46673,7 +46657,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexmIntent"
+                                    "flexjIntent"
                                 ]
                             }
                         },
@@ -48700,7 +48684,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexsIntent"
+                                    "flexpIntent"
                                 ]
                             }
                         },
@@ -48777,7 +48761,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexvIntent"
+                                    "flexsIntent"
                                 ]
                             }
                         },
@@ -48854,7 +48838,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexwIntent"
+                                    "flextIntent"
                                 ]
                             }
                         },
@@ -50880,7 +50864,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexxIntent"
+                                    "flexuIntent"
                                 ]
                             }
                         },
@@ -50917,7 +50901,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexnIntent"
+                                    "flexkIntent"
                                 ]
                             }
                         },
@@ -51007,7 +50991,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexyIntent"
+                                    "flexvIntent"
                                 ]
                             }
                         },
@@ -53677,7 +53661,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexzIntent"
+                                    "flexwIntent"
                                 ]
                             }
                         },
@@ -55793,38 +55777,22 @@
                     ]
                 },
                 {
+                    "name": "CatchAllSlotIntent",
+                    "samples": [
+                        "{weaponChoiceName}",
+                        "i'll take a {weaponChoiceName}",
+                        "a {weaponChoiceName}",
+                        "the {weaponChoiceName}"
+                    ],
+                    "slots": [
+                        {
+                            "name": "weaponChoiceName",
+                            "type": "CustomWeapons"
+                        }
+                    ]
+                },
+                {
                     "name": "flexjIntent",
-                    "samples": [
-                        "crucifix",
-                        "i want the crucifix",
-                        "the crucifix",
-                        "i choose crucifix",
-                        "i'll take the crucifix"
-                    ]
-                },
-                {
-                    "name": "flexkIntent",
-                    "samples": [
-                        "totem",
-                        "i want the totem",
-                        "the totem",
-                        "i choose totem",
-                        "i'll take the totem"
-                    ]
-                },
-                {
-                    "name": "flexlIntent",
-                    "samples": [
-                        "spell",
-                        "i want the spell",
-                        "the spell",
-                        "a spell",
-                        "i choose the spell",
-                        "i'll take the spell"
-                    ]
-                },
-                {
-                    "name": "flexmIntent",
                     "samples": [
                         "go to dining room",
                         "dining room",
@@ -55833,7 +55801,7 @@
                     ]
                 },
                 {
-                    "name": "flexnIntent",
+                    "name": "flexkIntent",
                     "samples": [
                         "go to foyer",
                         "foyer",
@@ -55843,7 +55811,7 @@
                     ]
                 },
                 {
-                    "name": "flexoIntent",
+                    "name": "flexlIntent",
                     "samples": [
                         "look at coffee table",
                         "examine coffee table",
@@ -55855,7 +55823,7 @@
                     ]
                 },
                 {
-                    "name": "flexpIntent",
+                    "name": "flexmIntent",
                     "samples": [
                         "kitchen",
                         "go to kitchen",
@@ -55865,7 +55833,7 @@
                     ]
                 },
                 {
-                    "name": "flexqIntent",
+                    "name": "flexnIntent",
                     "samples": [
                         "check cabinet",
                         "examine cabinet",
@@ -55876,7 +55844,7 @@
                     ]
                 },
                 {
-                    "name": "flexrIntent",
+                    "name": "flexoIntent",
                     "samples": [
                         "living room",
                         "go to living room",
@@ -55886,7 +55854,7 @@
                     ]
                 },
                 {
-                    "name": "flexsIntent",
+                    "name": "flexpIntent",
                     "samples": [
                         "stairs",
                         "use the stairs",
@@ -55898,7 +55866,7 @@
                     ]
                 },
                 {
-                    "name": "flextIntent",
+                    "name": "flexqIntent",
                     "samples": [
                         "get paper",
                         "pick up paper",
@@ -55908,7 +55876,7 @@
                     ]
                 },
                 {
-                    "name": "flexuIntent",
+                    "name": "flexrIntent",
                     "samples": [
                         "check box",
                         "look at box",
@@ -55920,7 +55888,7 @@
                     ]
                 },
                 {
-                    "name": "flexvIntent",
+                    "name": "flexsIntent",
                     "samples": [
                         "check vase",
                         "check large vase",
@@ -55931,7 +55899,7 @@
                     ]
                 },
                 {
-                    "name": "flexwIntent",
+                    "name": "flextIntent",
                     "samples": [
                         "check chest",
                         "check wooden chest",
@@ -55942,7 +55910,7 @@
                     ]
                 },
                 {
-                    "name": "flexxIntent",
+                    "name": "flexuIntent",
                     "samples": [
                         "go to patio",
                         "patio",
@@ -55950,7 +55918,7 @@
                     ]
                 },
                 {
-                    "name": "flexyIntent",
+                    "name": "flexvIntent",
                     "samples": [
                         "look painting",
                         "check painting",
@@ -55959,7 +55927,7 @@
                     ]
                 },
                 {
-                    "name": "flexzIntent",
+                    "name": "flexwIntent",
                     "samples": [
                         "take a break"
                     ]
@@ -56034,7 +56002,29 @@
                     "name": "AMAZON.FallbackIntent"
                 }
             ],
-            "invocationName": "ghost hunter"
+            "invocationName": "ghost hunter",
+            "types": [
+                {
+                    "name": "CustomWeapons",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "spell"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crucifix"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "totem"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     }
 }

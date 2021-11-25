@@ -11389,7 +11389,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "weakness",
-                                            "variableValue": "incantation"
+                                            "variableValue": "spell"
                                         }
                                     },
                                     {
@@ -12726,14 +12726,14 @@
             ],
             "id": "blindside",
             "customProperties": {
-                "sourceLocation": 2119,
+                "sourceLocation": 2113,
                 "sourceID": "ghost.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_09'/>\n\t\tThe entity dives at you.",
+                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_09'/>\n\t\tThe entity dives at you.\n\t\t||\n\t\tThe entity attempts to assault you.\n\t\t||\n\t\tThe haunt makes an attack.",
                     "sceneDirections": [
                         {
                             "directionType": "roll dice",
@@ -13410,7 +13410,7 @@
             ],
             "id": "ghostAttack",
             "customProperties": {
-                "sourceLocation": 2307,
+                "sourceLocation": 2301,
                 "sourceID": "ghost.abc"
             }
         },
@@ -14133,7 +14133,7 @@
             ],
             "id": "ghostHit",
             "customProperties": {
-                "sourceLocation": 2523,
+                "sourceLocation": 2594,
                 "sourceID": "ghost.abc"
             }
         },
@@ -14807,7 +14807,7 @@
             ],
             "id": "light off",
             "customProperties": {
-                "sourceLocation": 3147,
+                "sourceLocation": 3218,
                 "sourceID": "ghost.abc"
             }
         },
@@ -15522,7 +15522,7 @@
             ],
             "id": "ghostMiss",
             "customProperties": {
-                "sourceLocation": 3352,
+                "sourceLocation": 3423,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16203,7 +16203,7 @@
             ],
             "id": "choice",
             "customProperties": {
-                "sourceLocation": 3718,
+                "sourceLocation": 3789,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16863,7 +16863,7 @@
             ],
             "id": "dead",
             "customProperties": {
-                "sourceLocation": 3911,
+                "sourceLocation": 3982,
                 "sourceID": "ghost.abc"
             }
         },
@@ -17533,7 +17533,7 @@
             ],
             "id": "no pic",
             "customProperties": {
-                "sourceLocation": 4027,
+                "sourceLocation": 4098,
                 "sourceID": "ghost.abc"
             }
         },
@@ -18292,7 +18292,7 @@
             ],
             "id": "ghostFlee",
             "customProperties": {
-                "sourceLocation": 4144,
+                "sourceLocation": 4215,
                 "sourceID": "ghost.abc"
             }
         },
@@ -25518,7 +25518,7 @@
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/electrical/arcs_sparks/arcs_sparks_01'/>\n\t\tYou find a dazzling ruby pendant on a silver chain.  You place it around your neck and in an instant you dissappear and reappear.",
+                    "narration": "<audio src='soundbank://soundlibrary/electrical/arcs_sparks/arcs_sparks_01'/>\n\t\tYou find a dazzling ruby pendant on a silver chain.  You place it around your neck and in an instant you dissappear and reappear.  Apparently, it allows you to teleport to the foyer on command.",
                     "sceneDirections": [
                         {
                             "directionType": "set",
@@ -26855,7 +26855,7 @@
             ],
             "id": "battery",
             "customProperties": {
-                "sourceLocation": 4439,
+                "sourceLocation": 4503,
                 "sourceID": "items.abc"
             }
         },
@@ -27522,7 +27522,7 @@
             ],
             "id": "super film",
             "customProperties": {
-                "sourceLocation": 4608,
+                "sourceLocation": 4672,
                 "sourceID": "items.abc"
             }
         },
@@ -28185,7 +28185,7 @@
             ],
             "id": "nothing",
             "customProperties": {
-                "sourceLocation": 4755,
+                "sourceLocation": 4819,
                 "sourceID": "items.abc"
             }
         },
@@ -28848,7 +28848,7 @@
             ],
             "id": "no paper",
             "customProperties": {
-                "sourceLocation": 5147,
+                "sourceLocation": 5211,
                 "sourceID": "items.abc"
             }
         },
@@ -29511,7 +29511,7 @@
             ],
             "id": "got paper",
             "customProperties": {
-                "sourceLocation": 5289,
+                "sourceLocation": 5353,
                 "sourceID": "items.abc"
             }
         },
@@ -30181,7 +30181,7 @@
             ],
             "id": "baton",
             "customProperties": {
-                "sourceLocation": 5513,
+                "sourceLocation": 5577,
                 "sourceID": "items.abc"
             }
         },
@@ -30844,7 +30844,7 @@
             ],
             "id": "no sense",
             "customProperties": {
-                "sourceLocation": 5680,
+                "sourceLocation": 5744,
                 "sourceID": "items.abc"
             }
         },
@@ -31507,7 +31507,7 @@
             ],
             "id": "sense",
             "customProperties": {
-                "sourceLocation": 5761,
+                "sourceLocation": 5825,
                 "sourceID": "items.abc"
             }
         },
@@ -32185,7 +32185,7 @@
             ],
             "id": "baton attack",
             "customProperties": {
-                "sourceLocation": 5918,
+                "sourceLocation": 5982,
                 "sourceID": "items.abc"
             }
         },
@@ -32848,7 +32848,7 @@
             ],
             "id": "void baton",
             "customProperties": {
-                "sourceLocation": 6164,
+                "sourceLocation": 6228,
                 "sourceID": "items.abc"
             }
         },
@@ -33511,7 +33511,7 @@
             ],
             "id": "no baton",
             "customProperties": {
-                "sourceLocation": 6352,
+                "sourceLocation": 6416,
                 "sourceID": "items.abc"
             }
         },
@@ -34188,7 +34188,7 @@
             ],
             "id": "flash off",
             "customProperties": {
-                "sourceLocation": 6421,
+                "sourceLocation": 6485,
                 "sourceID": "items.abc"
             }
         },
@@ -34858,7 +34858,7 @@
             ],
             "id": "flash on",
             "customProperties": {
-                "sourceLocation": 6624,
+                "sourceLocation": 6688,
                 "sourceID": "items.abc"
             }
         },
@@ -35551,15 +35551,21 @@
             ],
             "id": "other light",
             "customProperties": {
-                "sourceLocation": 6810,
+                "sourceLocation": 6874,
                 "sourceID": "items.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_12'/>\n\t\tIt is time for you to rid this place of its uninvited guest!",
+                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_12'/>\n\t\tWelcome investigator.  It is time for you to rid this place of its uninvited guest!",
                     "sceneDirections": [
+                        {
+                            "directionType": "backgroundmusic",
+                            "parameters": {
+                                "audioURL": "https://github.com/MrLordBrown/bcbc/blob/main/alexa.mp3"
+                            }
+                        },
                         {
                             "directionType": "set",
                             "parameters": {
@@ -35614,6 +35620,34 @@
                             "parameters": {
                                 "variableName": "flashlightDeath",
                                 "variableValue": "0"
+                            }
+                        },
+                        {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "livingTable",
+                                "variableValue": "There is a coffee table near the center of the room."
+                            }
+                        },
+                        {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "foyerTable",
+                                "variableValue": "A small table is next to the wall."
+                            }
+                        },
+                        {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "stairsPainting",
+                                "variableValue": "A painting of a safe looms over the stairs."
+                            }
+                        },
+                        {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "diningCabinet",
+                                "variableValue": "A scarcely adorned cabinet is in the corner."
                             }
                         },
                         {
@@ -36954,7 +36988,7 @@
             ],
             "id": "set location",
             "customProperties": {
-                "sourceLocation": 535,
+                "sourceLocation": 893,
                 "sourceID": "story.abc"
             }
         },
@@ -37832,7 +37866,7 @@
             ],
             "id": "map",
             "customProperties": {
-                "sourceLocation": 812,
+                "sourceLocation": 1170,
                 "sourceID": "story.abc"
             }
         },
@@ -38495,14 +38529,14 @@
             ],
             "id": "living intro",
             "customProperties": {
-                "sourceLocation": 1450,
+                "sourceLocation": 1808,
                 "sourceID": "story.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "The living room connects to the foyer and the dining room.",
+                    "narration": "{livingTable} The living room connects to the foyer and the dining room.",
                     "sceneDirections": [
                         {
                             "directionType": "go to",
@@ -39158,7 +39192,7 @@
             ],
             "id": "living room",
             "customProperties": {
-                "sourceLocation": 1742,
+                "sourceLocation": 2100,
                 "sourceID": "story.abc"
             }
         },
@@ -39263,6 +39297,13 @@
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "{livingTable}",
+                                            "variableValue": ""
+                                        }
+                                    },
                                     {
                                         "directionType": "condition",
                                         "parameters": {
@@ -39989,7 +40030,7 @@
             ],
             "id": "living event",
             "customProperties": {
-                "sourceLocation": 1848,
+                "sourceLocation": 2220,
                 "sourceID": "story.abc"
             }
         },
@@ -40652,14 +40693,14 @@
             ],
             "id": "dining intro",
             "customProperties": {
-                "sourceLocation": 2516,
+                "sourceLocation": 2915,
                 "sourceID": "story.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "From the dining room you can reach the kitchen and the living room.",
+                    "narration": "{diningCabinet} From the dining room you can reach the kitchen and the living room.",
                     "sceneDirections": [
                         {
                             "directionType": "go to",
@@ -41315,7 +41356,7 @@
             ],
             "id": "dining room",
             "customProperties": {
-                "sourceLocation": 2759,
+                "sourceLocation": 3158,
                 "sourceID": "story.abc"
             }
         },
@@ -41381,6 +41422,13 @@
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "diningCabinet",
+                                            "variableValue": ""
+                                        }
+                                    },
                                     {
                                         "directionType": "condition",
                                         "parameters": {
@@ -42146,7 +42194,7 @@
             ],
             "id": "dining event",
             "customProperties": {
-                "sourceLocation": 2870,
+                "sourceLocation": 3285,
                 "sourceID": "story.abc"
             }
         },
@@ -42809,14 +42857,14 @@
             ],
             "id": "foyer intro",
             "customProperties": {
-                "sourceLocation": 3545,
+                "sourceLocation": 3987,
                 "sourceID": "story.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "The foyer leads to the stairs, the living room, and the kitchen.",
+                    "narration": "{foyerTable} The foyer leads to the stairs, the living room, and the kitchen.",
                     "sceneDirections": [
                         {
                             "directionType": "go to",
@@ -43472,7 +43520,7 @@
             ],
             "id": "foyer",
             "customProperties": {
-                "sourceLocation": 3807,
+                "sourceLocation": 4249,
                 "sourceID": "story.abc"
             }
         },
@@ -43498,6 +43546,13 @@
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "foyerTable",
+                                            "variableValue": ""
+                                        }
+                                    },
                                     {
                                         "directionType": "condition",
                                         "parameters": {
@@ -44316,7 +44371,7 @@
             ],
             "id": "foyer event",
             "customProperties": {
-                "sourceLocation": 3911,
+                "sourceLocation": 4366,
                 "sourceID": "story.abc"
             }
         },
@@ -45082,7 +45137,7 @@
             ],
             "id": "lastLocation",
             "customProperties": {
-                "sourceLocation": 4548,
+                "sourceLocation": 5028,
                 "sourceID": "story.abc"
             }
         },
@@ -45745,7 +45800,7 @@
             ],
             "id": "kitchen intro",
             "customProperties": {
-                "sourceLocation": 4959,
+                "sourceLocation": 5439,
                 "sourceID": "story.abc"
             }
         },
@@ -46408,7 +46463,7 @@
             ],
             "id": "kitchen",
             "customProperties": {
-                "sourceLocation": 5176,
+                "sourceLocation": 5656,
                 "sourceID": "story.abc"
             }
         },
@@ -47308,7 +47363,7 @@
             ],
             "id": "kitchen event",
             "customProperties": {
-                "sourceLocation": 5294,
+                "sourceLocation": 5774,
                 "sourceID": "story.abc"
             }
         },
@@ -47971,7 +48026,7 @@
             ],
             "id": "patio intro",
             "customProperties": {
-                "sourceLocation": 6186,
+                "sourceLocation": 6666,
                 "sourceID": "story.abc"
             }
         },
@@ -48634,7 +48689,7 @@
             ],
             "id": "patio",
             "customProperties": {
-                "sourceLocation": 6391,
+                "sourceLocation": 6871,
                 "sourceID": "story.abc"
             }
         },
@@ -49489,7 +49544,7 @@
             ],
             "id": "patio event",
             "customProperties": {
-                "sourceLocation": 6484,
+                "sourceLocation": 6964,
                 "sourceID": "story.abc"
             }
         },
@@ -50152,14 +50207,14 @@
             ],
             "id": "stairs intro",
             "customProperties": {
-                "sourceLocation": 7234,
+                "sourceLocation": 7714,
                 "sourceID": "story.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "The stairs lead to the patio and the foyer.",
+                    "narration": "{stairsPainting} The stairs lead to the patio and the foyer.",
                     "sceneDirections": [
                         {
                             "directionType": "go to",
@@ -50815,7 +50870,7 @@
             ],
             "id": "stairs",
             "customProperties": {
-                "sourceLocation": 7467,
+                "sourceLocation": 7947,
                 "sourceID": "story.abc"
             }
         },
@@ -50916,6 +50971,13 @@
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "stairsPainting",
+                                            "variableValue": ""
+                                        }
+                                    },
                                     {
                                         "directionType": "condition",
                                         "parameters": {
@@ -51642,7 +51704,7 @@
             ],
             "id": "stairs event",
             "customProperties": {
-                "sourceLocation": 7552,
+                "sourceLocation": 8049,
                 "sourceID": "story.abc"
             }
         },
@@ -51655,7 +51717,7 @@
             ],
             "id": "global prepend",
             "customProperties": {
-                "sourceLocation": 8261,
+                "sourceLocation": 8787,
                 "sourceID": "story.abc"
             }
         },
@@ -52311,7 +52373,7 @@
             ],
             "id": "global append",
             "customProperties": {
-                "sourceLocation": 8415,
+                "sourceLocation": 8941,
                 "sourceID": "story.abc"
             }
         },
@@ -52978,7 +53040,7 @@
             ],
             "id": "their here",
             "customProperties": {
-                "sourceLocation": 10828,
+                "sourceLocation": 11354,
                 "sourceID": "story.abc"
             }
         },
@@ -53638,7 +53700,7 @@
             ],
             "id": "pause",
             "customProperties": {
-                "sourceLocation": 11250,
+                "sourceLocation": 11776,
                 "sourceID": "story.abc"
             }
         },
@@ -54312,7 +54374,7 @@
             ],
             "id": "end",
             "customProperties": {
-                "sourceLocation": 11345,
+                "sourceLocation": 11871,
                 "sourceID": "story.abc"
             }
         },
@@ -54981,7 +55043,7 @@
             ],
             "id": "help",
             "customProperties": {
-                "sourceLocation": 11468,
+                "sourceLocation": 11994,
                 "sourceID": "story.abc"
             }
         },
@@ -55676,7 +55738,7 @@
             ],
             "id": "resume",
             "customProperties": {
-                "sourceLocation": 11948,
+                "sourceLocation": 12474,
                 "sourceID": "story.abc"
             }
         }

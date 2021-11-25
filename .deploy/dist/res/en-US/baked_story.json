@@ -39301,7 +39301,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "{livingTable}",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -40693,7 +40693,7 @@
             ],
             "id": "dining intro",
             "customProperties": {
-                "sourceLocation": 2915,
+                "sourceLocation": 2917,
                 "sourceID": "story.abc"
             }
         },
@@ -41356,7 +41356,7 @@
             ],
             "id": "dining room",
             "customProperties": {
-                "sourceLocation": 3158,
+                "sourceLocation": 3160,
                 "sourceID": "story.abc"
             }
         },
@@ -41426,7 +41426,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "diningCabinet",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -42194,7 +42194,7 @@
             ],
             "id": "dining event",
             "customProperties": {
-                "sourceLocation": 3285,
+                "sourceLocation": 3287,
                 "sourceID": "story.abc"
             }
         },
@@ -42857,7 +42857,7 @@
             ],
             "id": "foyer intro",
             "customProperties": {
-                "sourceLocation": 3987,
+                "sourceLocation": 3991,
                 "sourceID": "story.abc"
             }
         },
@@ -43520,7 +43520,7 @@
             ],
             "id": "foyer",
             "customProperties": {
-                "sourceLocation": 4249,
+                "sourceLocation": 4253,
                 "sourceID": "story.abc"
             }
         },
@@ -43550,7 +43550,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "foyerTable",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -44371,7 +44371,7 @@
             ],
             "id": "foyer event",
             "customProperties": {
-                "sourceLocation": 4366,
+                "sourceLocation": 4370,
                 "sourceID": "story.abc"
             }
         },
@@ -45137,7 +45137,7 @@
             ],
             "id": "lastLocation",
             "customProperties": {
-                "sourceLocation": 5028,
+                "sourceLocation": 5034,
                 "sourceID": "story.abc"
             }
         },
@@ -45800,7 +45800,7 @@
             ],
             "id": "kitchen intro",
             "customProperties": {
-                "sourceLocation": 5439,
+                "sourceLocation": 5445,
                 "sourceID": "story.abc"
             }
         },
@@ -46463,7 +46463,7 @@
             ],
             "id": "kitchen",
             "customProperties": {
-                "sourceLocation": 5656,
+                "sourceLocation": 5662,
                 "sourceID": "story.abc"
             }
         },
@@ -46533,7 +46533,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "paperSlip",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -46596,7 +46596,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "woodBox",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -47363,7 +47363,7 @@
             ],
             "id": "kitchen event",
             "customProperties": {
-                "sourceLocation": 5774,
+                "sourceLocation": 5780,
                 "sourceID": "story.abc"
             }
         },
@@ -48026,7 +48026,7 @@
             ],
             "id": "patio intro",
             "customProperties": {
-                "sourceLocation": 6666,
+                "sourceLocation": 6676,
                 "sourceID": "story.abc"
             }
         },
@@ -48689,7 +48689,7 @@
             ],
             "id": "patio",
             "customProperties": {
-                "sourceLocation": 6871,
+                "sourceLocation": 6881,
                 "sourceID": "story.abc"
             }
         },
@@ -48760,7 +48760,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "vase",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -48837,7 +48837,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "chest",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -49544,7 +49544,7 @@
             ],
             "id": "patio event",
             "customProperties": {
-                "sourceLocation": 6964,
+                "sourceLocation": 6974,
                 "sourceID": "story.abc"
             }
         },
@@ -50207,7 +50207,7 @@
             ],
             "id": "stairs intro",
             "customProperties": {
-                "sourceLocation": 7714,
+                "sourceLocation": 7728,
                 "sourceID": "story.abc"
             }
         },
@@ -50870,7 +50870,7 @@
             ],
             "id": "stairs",
             "customProperties": {
-                "sourceLocation": 7947,
+                "sourceLocation": 7961,
                 "sourceID": "story.abc"
             }
         },
@@ -50975,7 +50975,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "stairsPainting",
-                                            "variableValue": ""
+                                            "variableValue": "{NULL}"
                                         }
                                     },
                                     {
@@ -51704,7 +51704,7 @@
             ],
             "id": "stairs event",
             "customProperties": {
-                "sourceLocation": 8049,
+                "sourceLocation": 8063,
                 "sourceID": "story.abc"
             }
         },
@@ -51717,7 +51717,7 @@
             ],
             "id": "global prepend",
             "customProperties": {
-                "sourceLocation": 8787,
+                "sourceLocation": 8804,
                 "sourceID": "story.abc"
             }
         },
@@ -52373,7 +52373,7 @@
             ],
             "id": "global append",
             "customProperties": {
-                "sourceLocation": 8941,
+                "sourceLocation": 8958,
                 "sourceID": "story.abc"
             }
         },
@@ -53040,7 +53040,7 @@
             ],
             "id": "their here",
             "customProperties": {
-                "sourceLocation": 11354,
+                "sourceLocation": 11371,
                 "sourceID": "story.abc"
             }
         },
@@ -53700,7 +53700,7 @@
             ],
             "id": "pause",
             "customProperties": {
-                "sourceLocation": 11776,
+                "sourceLocation": 11793,
                 "sourceID": "story.abc"
             }
         },
@@ -54374,7 +54374,7 @@
             ],
             "id": "end",
             "customProperties": {
-                "sourceLocation": 11871,
+                "sourceLocation": 11888,
                 "sourceID": "story.abc"
             }
         },
@@ -55043,7 +55043,7 @@
             ],
             "id": "help",
             "customProperties": {
-                "sourceLocation": 11994,
+                "sourceLocation": 12011,
                 "sourceID": "story.abc"
             }
         },
@@ -55738,7 +55738,7 @@
             ],
             "id": "resume",
             "customProperties": {
-                "sourceLocation": 12474,
+                "sourceLocation": 12491,
                 "sourceID": "story.abc"
             }
         }

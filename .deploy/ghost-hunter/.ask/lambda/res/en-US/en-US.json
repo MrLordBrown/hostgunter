@@ -68,10 +68,12 @@
                 {
                     "name": "flexhIntent",
                     "samples": [
-                        "use sense",
-                        "sense the ghost",
-                        "try to sense",
-                        "sense"
+                        "locate ghost",
+                        "locate the ghost",
+                        "find the ghost",
+                        "find ghost",
+                        "sense ghost",
+                        "sense the ghost"
                     ]
                 },
                 {

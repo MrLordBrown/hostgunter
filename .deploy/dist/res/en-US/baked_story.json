@@ -530,10 +530,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -1214,10 +1216,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -1877,10 +1881,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -2547,10 +2553,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -3284,10 +3292,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -3947,10 +3957,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -4617,10 +4629,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -5295,10 +5309,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -6009,10 +6025,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -6672,10 +6690,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -7358,10 +7378,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -8021,10 +8043,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -8870,10 +8894,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -9530,10 +9556,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -10190,10 +10218,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -10919,10 +10949,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -11127,6 +11159,13 @@
                     "narration": "Snapping a photo of the ghost will reveal what type it is.  Try looking for better film while you are in the house.",
                     "sceneDirections": [
                         {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "ghostType",
+                                "variableValue": "0"
+                            }
+                        },
+                        {
                             "directionType": "roll dice",
                             "parameters": {
                                 "diceString": "1d4"
@@ -11140,15 +11179,68 @@
                                     {
                                         "directionType": "set",
                                         "parameters": {
-                                            "variableName": "ghostHealth",
-                                            "variableValue": "4"
+                                            "variableName": "ghostType",
+                                            "variableValue": "specter"
                                         }
-                                    },
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{rollResult} == 2",
+                                "directions": [
                                     {
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "ghostType",
                                             "variableValue": "spirit"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{rollResult} == 3",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "ghostType",
+                                            "variableValue": "apparition"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{rollResult} == 4",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "ghostType",
+                                            "variableValue": "shadow"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{ghostType} == 'spirit'",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "ghostHealth",
+                                            "variableValue": "4"
                                         }
                                     },
                                     {
@@ -11192,15 +11284,8 @@
                         {
                             "directionType": "condition",
                             "parameters": {
-                                "condition": "{rollResult} == 2",
+                                "condition": "{if ghostType} == 'shadow'",
                                 "directions": [
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "ghostType",
-                                            "variableValue": "shadow"
-                                        }
-                                    },
                                     {
                                         "directionType": "set",
                                         "parameters": {
@@ -11270,15 +11355,8 @@
                         {
                             "directionType": "condition",
                             "parameters": {
-                                "condition": "{rollResult} == 3",
+                                "condition": "{ghostType} == 'specter'",
                                 "directions": [
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "ghostType",
-                                            "variableValue": "spectre"
-                                        }
-                                    },
                                     {
                                         "directionType": "set",
                                         "parameters": {
@@ -11341,15 +11419,8 @@
                         {
                             "directionType": "condition",
                             "parameters": {
-                                "condition": "{rollResult} == 4",
+                                "condition": "{ghostType} == 'apparition'",
                                 "directions": [
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "ghostType",
-                                            "variableValue": "apparition"
-                                        }
-                                    },
                                     {
                                         "directionType": "set",
                                         "parameters": {
@@ -11865,10 +11936,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -12528,10 +12601,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -12726,14 +12801,14 @@
             ],
             "id": "blindside",
             "customProperties": {
-                "sourceLocation": 2113,
+                "sourceLocation": 2277,
                 "sourceID": "ghost.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_09'/>\n\t\tThe entity dives at you.\n\t\t||\n\t\tThe entity attempts to assault you.\n\t\t||\n\t\tThe haunt makes an attack.",
+                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_09'/>\n\t\tThe entity dives at you.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/horror/horror_09'/>\n\t\tThe entity attempts to assault you.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/horror/horror_09'/>\n\t\tThe haunt makes an attack.",
                     "sceneDirections": [
                         {
                             "directionType": "roll dice",
@@ -13212,10 +13287,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -13410,7 +13487,7 @@
             ],
             "id": "ghostAttack",
             "customProperties": {
-                "sourceLocation": 2301,
+                "sourceLocation": 2465,
                 "sourceID": "ghost.abc"
             }
         },
@@ -13935,10 +14012,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -14133,7 +14212,7 @@
             ],
             "id": "ghostHit",
             "customProperties": {
-                "sourceLocation": 2594,
+                "sourceLocation": 2876,
                 "sourceID": "ghost.abc"
             }
         },
@@ -14609,10 +14688,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -14807,7 +14888,7 @@
             ],
             "id": "light off",
             "customProperties": {
-                "sourceLocation": 3218,
+                "sourceLocation": 3500,
                 "sourceID": "ghost.abc"
             }
         },
@@ -15324,10 +15405,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -15522,7 +15605,7 @@
             ],
             "id": "ghostMiss",
             "customProperties": {
-                "sourceLocation": 3423,
+                "sourceLocation": 3705,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16005,10 +16088,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -16203,7 +16288,7 @@
             ],
             "id": "choice",
             "customProperties": {
-                "sourceLocation": 3789,
+                "sourceLocation": 4071,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16665,10 +16750,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -16863,7 +16950,7 @@
             ],
             "id": "dead",
             "customProperties": {
-                "sourceLocation": 3982,
+                "sourceLocation": 4264,
                 "sourceID": "ghost.abc"
             }
         },
@@ -17335,10 +17422,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -17533,7 +17622,7 @@
             ],
             "id": "no pic",
             "customProperties": {
-                "sourceLocation": 4098,
+                "sourceLocation": 4380,
                 "sourceID": "ghost.abc"
             }
         },
@@ -18094,10 +18183,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -18292,7 +18383,7 @@
             ],
             "id": "ghostFlee",
             "customProperties": {
-                "sourceLocation": 4215,
+                "sourceLocation": 4497,
                 "sourceID": "ghost.abc"
             }
         },
@@ -19093,10 +19184,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -19885,10 +19978,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -20548,10 +20643,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -21211,10 +21308,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -21963,10 +22062,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -22633,10 +22734,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -23303,10 +23406,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -23973,10 +24078,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -24643,10 +24750,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -25313,10 +25422,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -25990,10 +26101,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -26657,10 +26770,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -27324,10 +27439,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -27987,10 +28104,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -28650,10 +28769,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -28860,7 +28981,7 @@
                         {
                             "directionType": "go to",
                             "parameters": {
-                                "target": "map",
+                                "target": "sense",
                                 "targetSceneProperty": "narration"
                             }
                         },
@@ -29313,10 +29434,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -29983,10 +30106,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -30181,7 +30306,7 @@
             ],
             "id": "baton",
             "customProperties": {
-                "sourceLocation": 5577,
+                "sourceLocation": 5579,
                 "sourceID": "items.abc"
             }
         },
@@ -30646,10 +30771,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -30844,7 +30971,7 @@
             ],
             "id": "no sense",
             "customProperties": {
-                "sourceLocation": 5744,
+                "sourceLocation": 5746,
                 "sourceID": "items.abc"
             }
         },
@@ -31309,10 +31436,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -31507,7 +31636,7 @@
             ],
             "id": "sense",
             "customProperties": {
-                "sourceLocation": 5825,
+                "sourceLocation": 5827,
                 "sourceID": "items.abc"
             }
         },
@@ -31987,10 +32116,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -32185,7 +32316,7 @@
             ],
             "id": "baton attack",
             "customProperties": {
-                "sourceLocation": 5982,
+                "sourceLocation": 5984,
                 "sourceID": "items.abc"
             }
         },
@@ -32650,10 +32781,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -32848,7 +32981,7 @@
             ],
             "id": "void baton",
             "customProperties": {
-                "sourceLocation": 6228,
+                "sourceLocation": 6230,
                 "sourceID": "items.abc"
             }
         },
@@ -33313,10 +33446,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -33511,7 +33646,7 @@
             ],
             "id": "no baton",
             "customProperties": {
-                "sourceLocation": 6416,
+                "sourceLocation": 6418,
                 "sourceID": "items.abc"
             }
         },
@@ -33990,10 +34125,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -34188,7 +34325,7 @@
             ],
             "id": "flash off",
             "customProperties": {
-                "sourceLocation": 6485,
+                "sourceLocation": 6487,
                 "sourceID": "items.abc"
             }
         },
@@ -34660,10 +34797,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -34858,7 +34997,7 @@
             ],
             "id": "flash on",
             "customProperties": {
-                "sourceLocation": 6688,
+                "sourceLocation": 6690,
                 "sourceID": "items.abc"
             }
         },
@@ -35353,10 +35492,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -35551,7 +35692,7 @@
             ],
             "id": "other light",
             "customProperties": {
-                "sourceLocation": 6874,
+                "sourceLocation": 6876,
                 "sourceID": "items.abc"
             }
         },
@@ -35560,12 +35701,6 @@
                 {
                     "narration": "<audio src='soundbank://soundlibrary/horror/horror_12'/>\n\t\tWelcome investigator.  It is time for you to rid this place of its uninvited guest!",
                     "sceneDirections": [
-                        {
-                            "directionType": "backgroundmusic",
-                            "parameters": {
-                                "audioURL": "https://github.com/MrLordBrown/bcbc/blob/main/alexa.mp3"
-                            }
-                        },
                         {
                             "directionType": "set",
                             "parameters": {
@@ -36106,10 +36241,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -36790,10 +36927,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -36988,7 +37127,7 @@
             ],
             "id": "set location",
             "customProperties": {
-                "sourceLocation": 893,
+                "sourceLocation": 831,
                 "sourceID": "story.abc"
             }
         },
@@ -37668,10 +37807,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -37866,7 +38007,7 @@
             ],
             "id": "map",
             "customProperties": {
-                "sourceLocation": 1170,
+                "sourceLocation": 1108,
                 "sourceID": "story.abc"
             }
         },
@@ -38331,10 +38472,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -38529,7 +38672,7 @@
             ],
             "id": "living intro",
             "customProperties": {
-                "sourceLocation": 1808,
+                "sourceLocation": 1746,
                 "sourceID": "story.abc"
             }
         },
@@ -38994,10 +39137,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -39192,7 +39337,7 @@
             ],
             "id": "living room",
             "customProperties": {
-                "sourceLocation": 2100,
+                "sourceLocation": 2038,
                 "sourceID": "story.abc"
             }
         },
@@ -39209,78 +39354,105 @@
                             }
                         },
                         {
-                            "directionType": "choice",
+                            "directionType": "slot",
                             "parameters": {
-                                "utterances": [
-                                    "go to dining room",
-                                    "dining room",
-                                    "to dining room"
-                                ],
-                                "saveToHistory": "true",
-                                "directions": [
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "lastLocaton",
-                                            "variableValue": "{location}"
-                                        }
-                                    },
-                                    {
-                                        "directionType": "set",
-                                        "parameters": {
-                                            "variableName": "location",
-                                            "variableValue": "11"
-                                        }
-                                    },
-                                    {
-                                        "directionType": "go to",
-                                        "parameters": {
-                                            "target": "map",
-                                            "targetSceneProperty": "narration"
-                                        }
-                                    }
-                                ],
-                                "utteranceIDs": [
-                                    "flexjIntent"
-                                ]
+                                "variableName": "livingChoice",
+                                "variableType": "livingRoomExits"
                             }
                         },
                         {
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "go to foyer",
-                                    "foyer",
-                                    "move to foyer",
-                                    "to foyer"
+                                    "{livingChoice}",
+                                    "go to {livingChoice}",
+                                    "to the {livingChoice}",
+                                    "the {livingChoice}"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
                                     {
                                         "directionType": "set",
                                         "parameters": {
-                                            "variableName": "lastLocaton",
-                                            "variableValue": "{location}"
+                                            "variableName": "option",
+                                            "variableValue": "{livingChoice}"
                                         }
                                     },
                                     {
-                                        "directionType": "set",
+                                        "directionType": "condition",
                                         "parameters": {
-                                            "variableName": "location",
-                                            "variableValue": "0"
+                                            "condition": "{option} == 'dining room'",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "lastLocaton",
+                                                        "variableValue": "{location}"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "location",
+                                                        "variableValue": "11"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "map",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "directionType": "go to",
+                                        "directionType": "condition",
                                         "parameters": {
-                                            "target": "map",
-                                            "targetSceneProperty": "narration"
+                                            "condition": "{option} == 'foyer'",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "lastLocaton",
+                                                        "variableValue": "{location}"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "location",
+                                                        "variableValue": "0"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "map",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "!{option}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "no access",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
                                         }
                                     }
                                 ],
-                                "utteranceIDs": [
-                                    "flexkIntent"
-                                ]
+                                "utteranceIDs": []
                             }
                         },
                         {
@@ -39301,7 +39473,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "{livingTable}",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The coffee table here has been looked over."
                                         }
                                     },
                                     {
@@ -39379,8 +39551,677 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexlIntent"
+                                    "flexjIntent"
                                 ]
+                            }
+                        },
+                        {
+                            "directionType": "repeat",
+                            "parameters": {}
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{start}",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{pat} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d6"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "9"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "4"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "1"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 4",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "10"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 5",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "9"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 6",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "11"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "use pendant",
+                                    "pendant",
+                                    "try pendant"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{pendant} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "location",
+                                                        "variableValue": "0"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "map",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no baton",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexdIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "use baton",
+                                    "try baton",
+                                    "baton"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{baton} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{ghostLocation} == {location}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "baton attack",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "void baton",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no baton",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexeIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "look around",
+                                    "look at room",
+                                    "look"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "map",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexfIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "turn on flashlight",
+                                    "flashlight",
+                                    "turn off flashlight",
+                                    "use flashlight"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{flashlight} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "flash off",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{duh} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "duh",
+                                                        "variableValue": "0"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "other light",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "flash on",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexgIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "start over",
+                                    "restart"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "restart",
+                                        "parameters": {},
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.StartOverIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "repeat"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "repeat",
+                                        "parameters": {},
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.RepeatIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "help"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "help",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.HelpIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "go back"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "back",
+                                        "parameters": {
+                                            "count": 1
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.PreviousIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "!{helped}",
+                                "directions": [
+                                    {
+                                        "directionType": "choice",
+                                        "parameters": {
+                                            "utterances": [
+                                                "*"
+                                            ],
+                                            "saveToHistory": "true",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "help",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ],
+                                            "utteranceIDs": []
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{paper} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{location} == !{ghostLocation}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 0",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "foyer"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 1",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "kitchen"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 4",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "stairs"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 10",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "living room"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 9",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "patio"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 11",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "dining room"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "sense",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "map",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no sense",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexhIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "go to bathroom",
+                                    "use the bathroom",
+                                    "to the bathroom",
+                                    "bathroom",
+                                    "where is the bathroom",
+                                    "restroom",
+                                    "use the restroom",
+                                    "to the restroom",
+                                    "where is the restroom",
+                                    "toilet",
+                                    "use the toilet",
+                                    "go to toilet",
+                                    "where is the toilet"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "pause",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexiIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        }
+                    ]
+                }
+            ],
+            "id": "living event",
+            "customProperties": {
+                "sourceLocation": 2158,
+                "sourceID": "story.abc"
+            }
+        },
+        {
+            "contents": [
+                {
+                    "narration": "You cannot access that from here.\n\t||\n\tThere is no way from here to there.\n\t||\n\tThat is not an option in this room.",
+                    "sceneDirections": [
+                        {
+                            "directionType": "go to",
+                            "parameters": {
+                                "target": "lastLocation",
+                                "targetSceneProperty": "narration"
                             }
                         },
                         {
@@ -39832,10 +40673,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -40028,9 +40871,9 @@
                     ]
                 }
             ],
-            "id": "living event",
+            "id": "no access",
             "customProperties": {
-                "sourceLocation": 2220,
+                "sourceLocation": 3090,
                 "sourceID": "story.abc"
             }
         },
@@ -40495,10 +41338,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -40693,7 +41538,7 @@
             ],
             "id": "dining intro",
             "customProperties": {
-                "sourceLocation": 2917,
+                "sourceLocation": 3247,
                 "sourceID": "story.abc"
             }
         },
@@ -41158,10 +42003,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -41356,7 +42203,7 @@
             ],
             "id": "dining room",
             "customProperties": {
-                "sourceLocation": 3160,
+                "sourceLocation": 3490,
                 "sourceID": "story.abc"
             }
         },
@@ -41405,7 +42252,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexmIntent"
+                                    "flexkIntent"
                                 ]
                             }
                         },
@@ -41426,7 +42273,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "diningCabinet",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The curio cabinet here has been delicately perused."
                                         }
                                     },
                                     {
@@ -41504,7 +42351,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexnIntent"
+                                    "flexlIntent"
                                 ]
                             }
                         },
@@ -41543,7 +42390,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexoIntent"
+                                    "flexmIntent"
                                 ]
                             }
                         },
@@ -41996,10 +42843,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -42194,7 +43043,7 @@
             ],
             "id": "dining event",
             "customProperties": {
-                "sourceLocation": 3287,
+                "sourceLocation": 3617,
                 "sourceID": "story.abc"
             }
         },
@@ -42659,10 +43508,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -42857,7 +43708,7 @@
             ],
             "id": "foyer intro",
             "customProperties": {
-                "sourceLocation": 3991,
+                "sourceLocation": 4370,
                 "sourceID": "story.abc"
             }
         },
@@ -43322,10 +44173,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -43520,7 +44373,7 @@
             ],
             "id": "foyer",
             "customProperties": {
-                "sourceLocation": 4253,
+                "sourceLocation": 4632,
                 "sourceID": "story.abc"
             }
         },
@@ -43550,7 +44403,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "foyerTable",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The small table here has been gutted."
                                         }
                                     },
                                     {
@@ -43606,7 +44459,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexlIntent"
+                                    "flexjIntent"
                                 ]
                             }
                         },
@@ -43645,7 +44498,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexmIntent"
+                                    "flexkIntent"
                                 ]
                             }
                         },
@@ -43684,7 +44537,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexpIntent"
+                                    "flexnIntent"
                                 ]
                             }
                         },
@@ -43720,7 +44573,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexoIntent"
+                                    "flexmIntent"
                                 ]
                             }
                         },
@@ -44173,10 +45026,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -44371,7 +45226,7 @@
             ],
             "id": "foyer event",
             "customProperties": {
-                "sourceLocation": 4370,
+                "sourceLocation": 4749,
                 "sourceID": "story.abc"
             }
         },
@@ -44939,10 +45794,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -45137,7 +45994,7 @@
             ],
             "id": "lastLocation",
             "customProperties": {
-                "sourceLocation": 5034,
+                "sourceLocation": 5448,
                 "sourceID": "story.abc"
             }
         },
@@ -45602,10 +46459,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -45800,7 +46659,7 @@
             ],
             "id": "kitchen intro",
             "customProperties": {
-                "sourceLocation": 5445,
+                "sourceLocation": 5859,
                 "sourceID": "story.abc"
             }
         },
@@ -46265,10 +47124,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -46463,7 +47324,7 @@
             ],
             "id": "kitchen",
             "customProperties": {
-                "sourceLocation": 5662,
+                "sourceLocation": 6076,
                 "sourceID": "story.abc"
             }
         },
@@ -46513,7 +47374,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexkIntent"
+                                    "flexoIntent"
                                 ]
                             }
                         },
@@ -46533,7 +47394,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "paperSlip",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The slip of paper has been placed on the counter."
                                         }
                                     },
                                     {
@@ -46574,7 +47435,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexqIntent"
+                                    "flexpIntent"
                                 ]
                             }
                         },
@@ -46596,7 +47457,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "woodBox",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The box here has been rummaged through."
                                         }
                                     },
                                     {
@@ -46674,7 +47535,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexrIntent"
+                                    "flexqIntent"
                                 ]
                             }
                         },
@@ -46712,7 +47573,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexjIntent"
+                                    "flexrIntent"
                                 ]
                             }
                         },
@@ -47165,10 +48026,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -47363,7 +48226,7 @@
             ],
             "id": "kitchen event",
             "customProperties": {
-                "sourceLocation": 5780,
+                "sourceLocation": 6194,
                 "sourceID": "story.abc"
             }
         },
@@ -47828,10 +48691,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -48026,7 +48891,7 @@
             ],
             "id": "patio intro",
             "customProperties": {
-                "sourceLocation": 6676,
+                "sourceLocation": 7174,
                 "sourceID": "story.abc"
             }
         },
@@ -48491,10 +49356,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -48689,7 +49556,7 @@
             ],
             "id": "patio",
             "customProperties": {
-                "sourceLocation": 6881,
+                "sourceLocation": 7379,
                 "sourceID": "story.abc"
             }
         },
@@ -48739,7 +49606,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexpIntent"
+                                    "flexnIntent"
                                 ]
                             }
                         },
@@ -48760,7 +49627,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "vase",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The vase here has been scoured."
                                         }
                                     },
                                     {
@@ -48837,7 +49704,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "chest",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The chest here has been emptied."
                                         }
                                     },
                                     {
@@ -49346,10 +50213,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -49544,7 +50413,7 @@
             ],
             "id": "patio event",
             "customProperties": {
-                "sourceLocation": 6974,
+                "sourceLocation": 7472,
                 "sourceID": "story.abc"
             }
         },
@@ -50009,10 +50878,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -50207,7 +51078,7 @@
             ],
             "id": "stairs intro",
             "customProperties": {
-                "sourceLocation": 7728,
+                "sourceLocation": 8285,
                 "sourceID": "story.abc"
             }
         },
@@ -50672,10 +51543,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -50870,7 +51743,7 @@
             ],
             "id": "stairs",
             "customProperties": {
-                "sourceLocation": 7961,
+                "sourceLocation": 8518,
                 "sourceID": "story.abc"
             }
         },
@@ -50956,7 +51829,7 @@
                                     }
                                 ],
                                 "utteranceIDs": [
-                                    "flexkIntent"
+                                    "flexoIntent"
                                 ]
                             }
                         },
@@ -50975,7 +51848,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "stairsPainting",
-                                            "variableValue": "{NULL}"
+                                            "variableValue": "The painting here as been removed from the wall."
                                         }
                                     },
                                     {
@@ -51506,10 +52379,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -51704,7 +52579,7 @@
             ],
             "id": "stairs event",
             "customProperties": {
-                "sourceLocation": 8063,
+                "sourceLocation": 8620,
                 "sourceID": "story.abc"
             }
         },
@@ -51717,7 +52592,7 @@
             ],
             "id": "global prepend",
             "customProperties": {
-                "sourceLocation": 8804,
+                "sourceLocation": 9407,
                 "sourceID": "story.abc"
             }
         },
@@ -52175,10 +53050,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -52373,7 +53250,7 @@
             ],
             "id": "global append",
             "customProperties": {
-                "sourceLocation": 8958,
+                "sourceLocation": 9561,
                 "sourceID": "story.abc"
             }
         },
@@ -52842,10 +53719,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -53040,7 +53919,7 @@
             ],
             "id": "their here",
             "customProperties": {
-                "sourceLocation": 11371,
+                "sourceLocation": 12014,
                 "sourceID": "story.abc"
             }
         },
@@ -53502,10 +54381,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -53700,7 +54581,7 @@
             ],
             "id": "pause",
             "customProperties": {
-                "sourceLocation": 11793,
+                "sourceLocation": 12436,
                 "sourceID": "story.abc"
             }
         },
@@ -54176,10 +55057,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -54374,7 +55257,7 @@
             ],
             "id": "end",
             "customProperties": {
-                "sourceLocation": 11888,
+                "sourceLocation": 12531,
                 "sourceID": "story.abc"
             }
         },
@@ -54845,10 +55728,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -55043,14 +55928,14 @@
             ],
             "id": "help",
             "customProperties": {
-                "sourceLocation": 12011,
+                "sourceLocation": 12654,
                 "sourceID": "story.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "Get in there and get that thing! Resume?",
+                    "narration": "The ghost still haunts this location! Would you like to resume?",
                     "sceneDirections": [
                         {
                             "directionType": "choice",
@@ -55540,10 +56425,12 @@
                             "directionType": "choice",
                             "parameters": {
                                 "utterances": [
-                                    "use sense",
-                                    "sense the ghost",
-                                    "try to sense",
-                                    "sense"
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -55738,13 +56625,13 @@
             ],
             "id": "resume",
             "customProperties": {
-                "sourceLocation": 12491,
+                "sourceLocation": 13134,
                 "sourceID": "story.abc"
             }
         }
     ],
     "storyID": "apparition-crusher",
-    "storyTitle": "apparition crusher",
+    "storyTitle": "Ghost Hunter",
     "alexaVoiceModel": {
         "languageModel": {
             "intents": [
@@ -55814,10 +56701,12 @@
                 {
                     "name": "flexhIntent",
                     "samples": [
-                        "use sense",
-                        "sense the ghost",
-                        "try to sense",
-                        "sense"
+                        "locate ghost",
+                        "locate the ghost",
+                        "find the ghost",
+                        "find ghost",
+                        "sense ghost",
+                        "sense the ghost"
                     ]
                 },
                 {
@@ -55841,12 +56730,20 @@
                 {
                     "name": "CatchAllSlotIntent",
                     "samples": [
+                        "{livingChoice}",
+                        "go to {livingChoice}",
+                        "to the {livingChoice}",
+                        "the {livingChoice}",
                         "{weaponChoiceName}",
                         "i'll take a {weaponChoiceName}",
                         "a {weaponChoiceName}",
                         "the {weaponChoiceName}"
                     ],
                     "slots": [
+                        {
+                            "name": "livingChoice",
+                            "type": "livingRoomExits"
+                        },
                         {
                             "name": "weaponChoiceName",
                             "type": "CustomWeapons"
@@ -55855,25 +56752,6 @@
                 },
                 {
                     "name": "flexjIntent",
-                    "samples": [
-                        "go to dining room",
-                        "dining room",
-                        "to dining room",
-                        "the dining room"
-                    ]
-                },
-                {
-                    "name": "flexkIntent",
-                    "samples": [
-                        "go to foyer",
-                        "foyer",
-                        "move to foyer",
-                        "to foyer",
-                        "to the foyer"
-                    ]
-                },
-                {
-                    "name": "flexlIntent",
                     "samples": [
                         "look at coffee table",
                         "examine coffee table",
@@ -55885,7 +56763,7 @@
                     ]
                 },
                 {
-                    "name": "flexmIntent",
+                    "name": "flexkIntent",
                     "samples": [
                         "kitchen",
                         "go to kitchen",
@@ -55895,7 +56773,7 @@
                     ]
                 },
                 {
-                    "name": "flexnIntent",
+                    "name": "flexlIntent",
                     "samples": [
                         "check cabinet",
                         "examine cabinet",
@@ -55906,7 +56784,7 @@
                     ]
                 },
                 {
-                    "name": "flexoIntent",
+                    "name": "flexmIntent",
                     "samples": [
                         "living room",
                         "go to living room",
@@ -55916,7 +56794,7 @@
                     ]
                 },
                 {
-                    "name": "flexpIntent",
+                    "name": "flexnIntent",
                     "samples": [
                         "stairs",
                         "use the stairs",
@@ -55928,7 +56806,17 @@
                     ]
                 },
                 {
-                    "name": "flexqIntent",
+                    "name": "flexoIntent",
+                    "samples": [
+                        "go to foyer",
+                        "foyer",
+                        "move to foyer",
+                        "to foyer",
+                        "to the foyer"
+                    ]
+                },
+                {
+                    "name": "flexpIntent",
                     "samples": [
                         "get paper",
                         "pick up paper",
@@ -55938,7 +56826,7 @@
                     ]
                 },
                 {
-                    "name": "flexrIntent",
+                    "name": "flexqIntent",
                     "samples": [
                         "check box",
                         "look at box",
@@ -55947,6 +56835,15 @@
                         "look at wooden box",
                         "check wooden box",
                         "examine wooden box"
+                    ]
+                },
+                {
+                    "name": "flexrIntent",
+                    "samples": [
+                        "go to dining room",
+                        "dining room",
+                        "the dining room",
+                        "to dining room"
                     ]
                 },
                 {
@@ -56082,6 +56979,21 @@
                         {
                             "name": {
                                 "value": "totem"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "livingRoomExits",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "foyer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dining room"
                             }
                         }
                     ]

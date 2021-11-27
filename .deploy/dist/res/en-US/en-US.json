@@ -97,20 +97,12 @@
                 {
                     "name": "CatchAllSlotIntent",
                     "samples": [
-                        "{livingChoice}",
-                        "go to {livingChoice}",
-                        "to the {livingChoice}",
-                        "the {livingChoice}",
                         "{weaponChoiceName}",
                         "i'll take a {weaponChoiceName}",
                         "a {weaponChoiceName}",
                         "the {weaponChoiceName}"
                     ],
                     "slots": [
-                        {
-                            "name": "livingChoice",
-                            "type": "livingRoomExits"
-                        },
                         {
                             "name": "weaponChoiceName",
                             "type": "CustomWeapons"
@@ -119,6 +111,26 @@
                 },
                 {
                     "name": "flexjIntent",
+                    "samples": [
+                        "foyer",
+                        "go to foyer",
+                        "to the foyer",
+                        "the foyer",
+                        "move to foyer",
+                        "to foyer"
+                    ]
+                },
+                {
+                    "name": "flexkIntent",
+                    "samples": [
+                        "go to dining room",
+                        "dining room",
+                        "the dining room",
+                        "to dining room"
+                    ]
+                },
+                {
+                    "name": "flexlIntent",
                     "samples": [
                         "look at coffee table",
                         "examine coffee table",
@@ -130,7 +142,7 @@
                     ]
                 },
                 {
-                    "name": "flexkIntent",
+                    "name": "flexmIntent",
                     "samples": [
                         "kitchen",
                         "go to kitchen",
@@ -140,7 +152,7 @@
                     ]
                 },
                 {
-                    "name": "flexlIntent",
+                    "name": "flexnIntent",
                     "samples": [
                         "check cabinet",
                         "examine cabinet",
@@ -151,7 +163,7 @@
                     ]
                 },
                 {
-                    "name": "flexmIntent",
+                    "name": "flexoIntent",
                     "samples": [
                         "living room",
                         "go to living room",
@@ -161,7 +173,7 @@
                     ]
                 },
                 {
-                    "name": "flexnIntent",
+                    "name": "flexpIntent",
                     "samples": [
                         "stairs",
                         "use the stairs",
@@ -173,17 +185,7 @@
                     ]
                 },
                 {
-                    "name": "flexoIntent",
-                    "samples": [
-                        "go to foyer",
-                        "foyer",
-                        "move to foyer",
-                        "to foyer",
-                        "to the foyer"
-                    ]
-                },
-                {
-                    "name": "flexpIntent",
+                    "name": "flexqIntent",
                     "samples": [
                         "get paper",
                         "pick up paper",
@@ -193,7 +195,7 @@
                     ]
                 },
                 {
-                    "name": "flexqIntent",
+                    "name": "flexrIntent",
                     "samples": [
                         "check box",
                         "look at box",
@@ -202,15 +204,6 @@
                         "look at wooden box",
                         "check wooden box",
                         "examine wooden box"
-                    ]
-                },
-                {
-                    "name": "flexrIntent",
-                    "samples": [
-                        "go to dining room",
-                        "dining room",
-                        "the dining room",
-                        "to dining room"
                     ]
                 },
                 {
@@ -346,21 +339,6 @@
                         {
                             "name": {
                                 "value": "totem"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "livingRoomExits",
-                    "values": [
-                        {
-                            "name": {
-                                "value": "foyer"
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "dining room"
                             }
                         }
                     ]

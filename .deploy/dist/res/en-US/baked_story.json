@@ -8970,7 +8970,7 @@
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost is blinded and offended by the holy symbol!\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost seems physically assaulted by your attack.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tYou send holy fire through the entity.",
+                    "narration": "<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost is spiritually offended by your attack!\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost seems physically assaulted by your attack.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tYou send ethereal fire through the entity.",
                     "sceneDirections": [
                         {
                             "directionType": "go to",

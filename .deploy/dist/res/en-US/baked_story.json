@@ -15,7 +15,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "combatText",
-                                            "variableValue": "Keep attacking it, you won't be defeated."
+                                            "variableValue": "Attack it, do not give up!"
                                         }
                                     }
                                 ]
@@ -30,7 +30,7 @@
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "combatText",
-                                            "variableValue": "You've almost done it, don't give up your attack!"
+                                            "variableValue": "banish it, muster all your strength!"
                                         }
                                     }
                                 ]
@@ -1493,7 +1493,7 @@
             ],
             "id": "wailing",
             "customProperties": {
-                "sourceLocation": 717,
+                "sourceLocation": 689,
                 "sourceID": "attack.abc"
             }
         },
@@ -2218,7 +2218,7 @@
             ],
             "id": "contacted",
             "customProperties": {
-                "sourceLocation": 773,
+                "sourceLocation": 745,
                 "sourceID": "attack.abc"
             }
         },
@@ -2896,7 +2896,7 @@
             ],
             "id": "flee",
             "customProperties": {
-                "sourceLocation": 1072,
+                "sourceLocation": 1044,
                 "sourceID": "attack.abc"
             }
         },
@@ -3553,7 +3553,7 @@
             ],
             "id": "run fail",
             "customProperties": {
-                "sourceLocation": 1175,
+                "sourceLocation": 1147,
                 "sourceID": "attack.abc"
             }
         },
@@ -4217,7 +4217,7 @@
             ],
             "id": "run",
             "customProperties": {
-                "sourceLocation": 1355,
+                "sourceLocation": 1327,
                 "sourceID": "attack.abc"
             }
         },
@@ -4948,7 +4948,7 @@
             ],
             "id": "photo",
             "customProperties": {
-                "sourceLocation": 1501,
+                "sourceLocation": 1473,
                 "sourceID": "attack.abc"
             }
         },
@@ -5605,7 +5605,7 @@
             ],
             "id": "blurred picture",
             "customProperties": {
-                "sourceLocation": 1871,
+                "sourceLocation": 1843,
                 "sourceID": "attack.abc"
             }
         },
@@ -6269,7 +6269,7 @@
             ],
             "id": "got picture",
             "customProperties": {
-                "sourceLocation": 1973,
+                "sourceLocation": 1945,
                 "sourceID": "attack.abc"
             }
         },
@@ -6941,7 +6941,7 @@
             ],
             "id": "no film",
             "customProperties": {
-                "sourceLocation": 2192,
+                "sourceLocation": 2164,
                 "sourceID": "attack.abc"
             }
         },
@@ -7649,7 +7649,7 @@
             ],
             "id": "attack",
             "customProperties": {
-                "sourceLocation": 2304,
+                "sourceLocation": 2276,
                 "sourceID": "attack.abc"
             }
         },
@@ -8306,7 +8306,7 @@
             ],
             "id": "flash hit",
             "customProperties": {
-                "sourceLocation": 2537,
+                "sourceLocation": 2509,
                 "sourceID": "attack.abc"
             }
         },
@@ -8963,7 +8963,7 @@
             ],
             "id": "miss",
             "customProperties": {
-                "sourceLocation": 2729,
+                "sourceLocation": 2701,
                 "sourceID": "attack.abc"
             }
         },
@@ -9620,7 +9620,7 @@
             ],
             "id": "hit",
             "customProperties": {
-                "sourceLocation": 3163,
+                "sourceLocation": 3135,
                 "sourceID": "attack.abc"
             }
         },
@@ -9644,7 +9644,7 @@
                                     {
                                         "directionType": "condition",
                                         "parameters": {
-                                            "condition": "{ghostHealth} == 0",
+                                            "condition": "{ghostHealth} < 1",
                                             "directions": [
                                                 {
                                                     "directionType": "condition",
@@ -9734,7 +9734,7 @@
                                     {
                                         "directionType": "condition",
                                         "parameters": {
-                                            "condition": "{ghostHealth} == 0",
+                                            "condition": "{ghostHealth} < 1",
                                             "directions": [
                                                 {
                                                     "directionType": "condition",
@@ -10440,7 +10440,7 @@
             ],
             "id": "damage",
             "customProperties": {
-                "sourceLocation": 3569,
+                "sourceLocation": 3541,
                 "sourceID": "attack.abc"
             }
         },
@@ -11094,7 +11094,7 @@
             ],
             "id": "victory",
             "customProperties": {
-                "sourceLocation": 4267,
+                "sourceLocation": 4259,
                 "sourceID": "attack.abc"
             }
         },
@@ -11748,7 +11748,7 @@
             ],
             "id": "failure",
             "customProperties": {
-                "sourceLocation": 4515,
+                "sourceLocation": 4507,
                 "sourceID": "attack.abc"
             }
         },
@@ -12628,7 +12628,7 @@
                                                     "directionType": "set",
                                                     "parameters": {
                                                         "variableName": "ghostForm",
-                                                        "variableValue": "sarah"
+                                                        "variableValue": "yuki"
                                                     }
                                                 },
                                                 {
@@ -12636,6 +12636,57 @@
                                                     "parameters": {
                                                         "variableName": "formText",
                                                         "variableValue": "The gangly image of an emaciated young women floats before you."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You flip through a scrap book prepared delicately and elaborately by a Miss Yuki Mori. It depicts her senior year in high school before travelling to America to study abroad.  The final page is a photograph of her friends and family, waving farewell as she was entering the gate to board her flight to the United States.  Everyone is smiling, save for one dreary and exceedingly drab individual at the back of the crowd."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "{'To your surprise, the batteries in a digital camera are sufficient to view the gallery.  The pictures depict a group of college students touring the western United States.  A series of photographs show an asian girl hysterically yelling at a slouching, verily depressed young man.  Then he was gone and the girl presumably fainted}"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a single, water damaged polaroid.  It is a self-photograph of an asian girl in a bathtub.  She is obviously upset, tears pour from her eyes admist running mascara and saliva dripping from her mouth.  Sitting in the bathtub, behind her, is a young asian man with sallow, ashy skin.  You cannot see his eyes past his thick, wirey, black bangs."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -12659,6 +12710,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "The gluttonous bulk of an old man crawls from within the floor."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "A black and white photograph shows the winners of a local youth bake-off.  First place went to a massive child, easily three times larger than the other children.  He is beaming with joy and satisfaction."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a desk plaque that reads 'An ounce of prevention is worth a pound of cure.' Beneath you find a pocket ledger with diligent, consistent entries for a twelve year span that simply indicates the date and an gradually increasing measure of ounces."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "The newspaper headline reads 'Mother Tortures Son to Lose Weight, Loses Her Life'.  The article depicts approximately 40 years of physical and mental abuse by Mrs. Agnus Hopper upon her son, Frank Hopper.  From the age of nine, she forced him to fillet parts of himself in order to lose weight.  Frank ended up filleting all of his mother's skin and muscle before doing the same to himself."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -12680,6 +12782,57 @@
                                                     "parameters": {
                                                         "variableName": "ghostText",
                                                         "variableValue": "The darting blur of a young man catches your eye as it races from within the wall."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a child's pair of sneakers with silver lightning bolts hand painted on the sides.  The name 'Sam Yonk'is written in black marker on the sole of each shoe, barely visible from use."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "There is a box filled with dusty trophies and medals.  The majority represent first place wins, with an occasional second here and there.  Each one was awarded to the same person, Tom Yonk."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You sit back and load up an 8mm home video found beneath a drawer with a false bottom.  It reveals two boys, one chained to a stone wall and one free and laughing wildly at the captive boy.  They are twins.  The free child is mocking chained boy with a medal while pelting him with pebbles.  Unnervingly, you presume the parents join in, laughing as the boy with the lightning bolt shoes hangs helpless and sobbing."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -12963,22 +13116,22 @@
                                                                 "directionType": "set",
                                                                 "parameters": {
                                                                     "variableName": "artifact",
-                                                                    "variableValue": "You come across a disiplinary notice for a high school student named Steven Wright.  It summarizes how the school supports Steven's interest in his ancenstral heritage but find the use of 'voodoo' and 'black magic' as distruptive to the school's educational goals and in some instances, biolgically hazardous to the health of the student body."
+                                                                    "variableValue": "{'You come across a disiplinary notice for a high school student named Steven Wright.  It summarizes how the school supports Steven's interest in his ancenstral heritage but find the use of 'voodoo' and 'black magic' as distruptive to the school's educational goals and in some instances, biolgically hazardous to the health of the student body}"
                                                                 }
-                                                            },
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
                                                             {
-                                                                "directionType": "condition",
+                                                                "directionType": "set",
                                                                 "parameters": {
-                                                                    "condition": "{rollResult} == 3",
-                                                                    "directions": [
-                                                                        {
-                                                                            "directionType": "set",
-                                                                            "parameters": {
-                                                                                "variableName": "artifact",
-                                                                                "variableValue": "You humbly pick up what appears to be a grimoire; a magical tome.  Each page is thoughtfully and patiently scribed in indian ink; instructions for all manner of ritual, hex, incantation, and sorcery.  Much of the book is devoted to specific offerings and prayers to various Haitian Iwa and African Orishas."
-                                                                            }
-                                                                        }
-                                                                    ]
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You humbly pick up what appears to be a grimoire; a magical tome.  Each page is thoughtfully and patiently scribed in indian ink; instructions for all manner of ritual, hex, incantation, and sorcery.  Much of the book is devoted to specific offerings and prayers to various Haitian Iwa and African Orishas."
                                                                 }
                                                             }
                                                         ]
@@ -13080,6 +13233,57 @@
                                                     "parameters": {
                                                         "variableName": "formText",
                                                         "variableValue": "The shade of a distressed and frantic women erratically cuts through the air, its eyes black and sullen."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You open a small jewelry box containing a set of wings, some aviator sunglasses, and half of a cigar.  Below these momento is a photograph of a women, probably taken in the late 1960s.  She is standing next to a red, dual-prop aircraft, a lit cigar hanging from a tremendous smile."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a well-crafted, leather journal authored by Jane Blansky.  It is squarely focused on aircrafts and piloting, chronicling her journey to becoming a pilot, the troubles she faced as a women trying to make it as a pilot, and detailed logs of her flights."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a casette tape marked 'July 5, 1981, CVR'.  The final moments of the recorded flight involve a female pilot who is hijacked by three male stoaways.  The recording goes silent as you hear her fighting against the men entering the cockpit."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -13312,7 +13516,7 @@
                                                                 "directionType": "set",
                                                                 "parameters": {
                                                                     "variableName": "artifact",
-                                                                    "variableValue": "{'You discover a stack of telephone bills, neatly arranged in an accordian file.  Pulling up a sample reads like an international phonebook with calls to Japan, England, Brazil, Germany, Iceland; among others.  Page upon page of calls at all times of the day and night}"
+                                                                    "variableValue": "You discover a stack of telephone bills, neatly arranged in an accordian file.  Pulling up a sample reads like an international phonebook with calls to Japan, England, Brazil, Germany, Iceland; among others.  Page upon page of calls at all times of the day and night."
                                                                 }
                                                             }
                                                         ]
@@ -13387,35 +13591,35 @@
                                                                     "variableName": "artifact",
                                                                     "variableValue": "You find a rusty, two-man crosscut saw.  It is still sturday despite its age."
                                                                 }
-                                                            },
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
                                                             {
-                                                                "directionType": "condition",
+                                                                "directionType": "set",
                                                                 "parameters": {
-                                                                    "condition": "{rollResult} == 2",
-                                                                    "directions": [
-                                                                        {
-                                                                            "directionType": "set",
-                                                                            "parameters": {
-                                                                                "variableName": "artifact",
-                                                                                "variableValue": "You listen to a recorded message between two employees of the Buck Hanson Lumber Mill and another employee on the receiving end.  The two are heckling the newer and younger employee about an accident at the mill earlier that day."
-                                                                            }
-                                                                        }
-                                                                    ]
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You listen to a recorded message between two employees of the Buck Hanson Lumber Mill and another employee on the receiving end.  The two are heckling the newer and younger employee about an accident at the mill earlier that day."
                                                                 }
-                                                            },
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
                                                             {
-                                                                "directionType": "condition",
+                                                                "directionType": "set",
                                                                 "parameters": {
-                                                                    "condition": "{rollResult} == 3",
-                                                                    "directions": [
-                                                                        {
-                                                                            "directionType": "set",
-                                                                            "parameters": {
-                                                                                "variableName": "artifact",
-                                                                                "variableValue": "You find a newspaper clipping; 'Employees's Jobs Cut Short After Harrasment Claim'.  'YUR NEXT' is scrawled in thick black marker over the newsprint."
-                                                                            }
-                                                                        }
-                                                                    ]
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a newspaper clipping; 'Employees's Jobs Cut Short After Harrasment Claim'.  'YUR NEXT' is scrawled in thick black marker over the newsprint."
                                                                 }
                                                             }
                                                         ]
@@ -14739,7 +14943,7 @@
             ],
             "id": "blindside",
             "customProperties": {
-                "sourceLocation": 9505,
+                "sourceLocation": 13803,
                 "sourceID": "ghost.abc"
             }
         },
@@ -15417,7 +15621,7 @@
             ],
             "id": "ghost attack",
             "customProperties": {
-                "sourceLocation": 9756,
+                "sourceLocation": 14054,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16111,7 +16315,7 @@
             ],
             "id": "ghost hit",
             "customProperties": {
-                "sourceLocation": 10170,
+                "sourceLocation": 14468,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16775,7 +16979,7 @@
             ],
             "id": "light off",
             "customProperties": {
-                "sourceLocation": 10730,
+                "sourceLocation": 15028,
                 "sourceID": "ghost.abc"
             }
         },
@@ -17476,7 +17680,7 @@
             ],
             "id": "ghost miss",
             "customProperties": {
-                "sourceLocation": 10921,
+                "sourceLocation": 15219,
                 "sourceID": "ghost.abc"
             }
         },
@@ -18151,7 +18355,7 @@
             ],
             "id": "choice",
             "customProperties": {
-                "sourceLocation": 11262,
+                "sourceLocation": 15560,
                 "sourceID": "ghost.abc"
             }
         },
@@ -18805,7 +19009,7 @@
             ],
             "id": "dead",
             "customProperties": {
-                "sourceLocation": 11455,
+                "sourceLocation": 15753,
                 "sourceID": "ghost.abc"
             }
         },
@@ -19469,7 +19673,7 @@
             ],
             "id": "no pic",
             "customProperties": {
-                "sourceLocation": 11571,
+                "sourceLocation": 15869,
                 "sourceID": "ghost.abc"
             }
         },
@@ -20222,7 +20426,7 @@
             ],
             "id": "ghost flee",
             "customProperties": {
-                "sourceLocation": 11688,
+                "sourceLocation": 15986,
                 "sourceID": "ghost.abc"
             }
         },
@@ -22067,7 +22271,7 @@
             ],
             "id": "set equipment",
             "customProperties": {
-                "sourceLocation": 1732,
+                "sourceLocation": 1736,
                 "sourceID": "items.abc"
             }
         },
@@ -22724,7 +22928,7 @@
             ],
             "id": "need weapon",
             "customProperties": {
-                "sourceLocation": 2850,
+                "sourceLocation": 2854,
                 "sourceID": "items.abc"
             }
         },
@@ -23381,7 +23585,7 @@
             ],
             "id": "weapon got",
             "customProperties": {
-                "sourceLocation": 2903,
+                "sourceLocation": 2907,
                 "sourceID": "items.abc"
             }
         },
@@ -24127,7 +24331,7 @@
             ],
             "id": "items",
             "customProperties": {
-                "sourceLocation": 2986,
+                "sourceLocation": 2990,
                 "sourceID": "items.abc"
             }
         },
@@ -24791,7 +24995,7 @@
             ],
             "id": "watch",
             "customProperties": {
-                "sourceLocation": 3341,
+                "sourceLocation": 3345,
                 "sourceID": "items.abc"
             }
         },
@@ -25455,7 +25659,7 @@
             ],
             "id": "film",
             "customProperties": {
-                "sourceLocation": 3568,
+                "sourceLocation": 3572,
                 "sourceID": "items.abc"
             }
         },
@@ -26119,7 +26323,7 @@
             ],
             "id": "ring",
             "customProperties": {
-                "sourceLocation": 3660,
+                "sourceLocation": 3664,
                 "sourceID": "items.abc"
             }
         },
@@ -26783,7 +26987,7 @@
             ],
             "id": "sacred text",
             "customProperties": {
-                "sourceLocation": 3978,
+                "sourceLocation": 3982,
                 "sourceID": "items.abc"
             }
         },
@@ -27447,7 +27651,7 @@
             ],
             "id": "medicine",
             "customProperties": {
-                "sourceLocation": 4245,
+                "sourceLocation": 4249,
                 "sourceID": "items.abc"
             }
         },
@@ -28118,7 +28322,7 @@
             ],
             "id": "pendant",
             "customProperties": {
-                "sourceLocation": 4415,
+                "sourceLocation": 4419,
                 "sourceID": "items.abc"
             }
         },
@@ -28779,7 +28983,7 @@
             ],
             "id": "battery",
             "customProperties": {
-                "sourceLocation": 4763,
+                "sourceLocation": 4767,
                 "sourceID": "items.abc"
             }
         },
@@ -29440,7 +29644,7 @@
             ],
             "id": "super film",
             "customProperties": {
-                "sourceLocation": 4932,
+                "sourceLocation": 4936,
                 "sourceID": "items.abc"
             }
         },
@@ -30097,7 +30301,7 @@
             ],
             "id": "nothing",
             "customProperties": {
-                "sourceLocation": 5079,
+                "sourceLocation": 5083,
                 "sourceID": "items.abc"
             }
         },
@@ -30754,7 +30958,7 @@
             ],
             "id": "no paper",
             "customProperties": {
-                "sourceLocation": 5461,
+                "sourceLocation": 5465,
                 "sourceID": "items.abc"
             }
         },
@@ -31411,7 +31615,7 @@
             ],
             "id": "got paper",
             "customProperties": {
-                "sourceLocation": 5603,
+                "sourceLocation": 5607,
                 "sourceID": "items.abc"
             }
         },
@@ -32075,7 +32279,7 @@
             ],
             "id": "baton",
             "customProperties": {
-                "sourceLocation": 5829,
+                "sourceLocation": 5833,
                 "sourceID": "items.abc"
             }
         },
@@ -32732,7 +32936,7 @@
             ],
             "id": "no sense",
             "customProperties": {
-                "sourceLocation": 5996,
+                "sourceLocation": 6000,
                 "sourceID": "items.abc"
             }
         },
@@ -33389,7 +33593,7 @@
             ],
             "id": "sense",
             "customProperties": {
-                "sourceLocation": 6077,
+                "sourceLocation": 6081,
                 "sourceID": "items.abc"
             }
         },
@@ -34061,7 +34265,7 @@
             ],
             "id": "baton attack",
             "customProperties": {
-                "sourceLocation": 6235,
+                "sourceLocation": 6239,
                 "sourceID": "items.abc"
             }
         },
@@ -34718,7 +34922,7 @@
             ],
             "id": "void baton",
             "customProperties": {
-                "sourceLocation": 6481,
+                "sourceLocation": 6485,
                 "sourceID": "items.abc"
             }
         },
@@ -35375,7 +35579,7 @@
             ],
             "id": "no baton",
             "customProperties": {
-                "sourceLocation": 6669,
+                "sourceLocation": 6673,
                 "sourceID": "items.abc"
             }
         },
@@ -36039,7 +36243,7 @@
             ],
             "id": "flash off",
             "customProperties": {
-                "sourceLocation": 6738,
+                "sourceLocation": 6742,
                 "sourceID": "items.abc"
             }
         },
@@ -36703,7 +36907,7 @@
             ],
             "id": "flash on",
             "customProperties": {
-                "sourceLocation": 6926,
+                "sourceLocation": 6930,
                 "sourceID": "items.abc"
             }
         },
@@ -37397,7 +37601,7 @@
             ],
             "id": "other light",
             "customProperties": {
-                "sourceLocation": 7112,
+                "sourceLocation": 7116,
                 "sourceID": "items.abc"
             }
         },

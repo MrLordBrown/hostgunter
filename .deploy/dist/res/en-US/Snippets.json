@@ -92,6 +92,6 @@
     "apparitionWail": "<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_10'/>",
     "d3": "roll 1d3",
     "rr": "if rollResult is",
-    "*": "*say",
-    "&": "*then"
+    "/*": "*say",
+    "/&": "*then"
 }

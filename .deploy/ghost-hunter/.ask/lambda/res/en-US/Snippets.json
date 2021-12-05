@@ -89,4 +89,9 @@
     "spiritWail": "<audio src='soundbank://soundlibrary/magic/amzn_sfx_ghost_spooky_01'/>",
     "shadowWail": "<audio src='soundbank://soundlibrary/magic/amzn_sfx_ghost_spooky_04'/>",
     "specterWail": "<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_06'/>",
-    "apparitionWail": "<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_10'/>"}
+    "apparitionWail": "<audio src='soundbank://soundlibrary/monsters/ghosts_demons/ghosts_demons_10'/>",
+    "d3": "roll 1d3",
+    "rr": "if rollResult is",
+    "/*": "*say",
+    "/&": "*then"
+}

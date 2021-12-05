@@ -4,8 +4,53 @@
         {
             "contents": [
                 {
-                    "narration": "The entity is before you!",
+                    "narration": "{firstContact}",
                     "sceneDirections": [
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{ghostHealth} > 1",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "combatText",
+                                            "variableValue": "Attack it, do not give up!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{ghostHealth} < 2",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "combatText",
+                                            "variableValue": "banish it, muster all your strength!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{gotPhoto} == 1",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "combatPhoto",
+                                            "variableValue": "You've got your photo. Now"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "directionType": "condition",
                             "parameters": {
@@ -1448,14 +1493,14 @@
             ],
             "id": "wailing",
             "customProperties": {
-                "sourceLocation": 441,
+                "sourceLocation": 689,
                 "sourceID": "attack.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "It's time to be rid of this ghost!\n\t\t||\n\t\tSnap a photo and banish this creature!",
+                    "narration": "{combatPhoto}\n\t\t{combatText}",
                     "sceneDirections": [
                         {
                             "directionType": "choice",
@@ -2173,7 +2218,7 @@
             ],
             "id": "contacted",
             "customProperties": {
-                "sourceLocation": 497,
+                "sourceLocation": 745,
                 "sourceID": "attack.abc"
             }
         },
@@ -2851,14 +2896,14 @@
             ],
             "id": "flee",
             "customProperties": {
-                "sourceLocation": 848,
+                "sourceLocation": 1044,
                 "sourceID": "attack.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "You fail to run away!",
+                    "narration": "You fail to run away!\n\t\t||\n\t\tYou trip as you attempt your escape.\n\t\t||\n\t\tYour right foot got the best of your left; you fail to escape.",
                     "sceneDirections": [
                         {
                             "directionType": "go to",
@@ -3508,7 +3553,7 @@
             ],
             "id": "run fail",
             "customProperties": {
-                "sourceLocation": 951,
+                "sourceLocation": 1147,
                 "sourceID": "attack.abc"
             }
         },
@@ -4172,7 +4217,7 @@
             ],
             "id": "run",
             "customProperties": {
-                "sourceLocation": 1017,
+                "sourceLocation": 1327,
                 "sourceID": "attack.abc"
             }
         },
@@ -4903,7 +4948,7 @@
             ],
             "id": "photo",
             "customProperties": {
-                "sourceLocation": 1163,
+                "sourceLocation": 1473,
                 "sourceID": "attack.abc"
             }
         },
@@ -5560,7 +5605,7 @@
             ],
             "id": "blurred picture",
             "customProperties": {
-                "sourceLocation": 1533,
+                "sourceLocation": 1843,
                 "sourceID": "attack.abc"
             }
         },
@@ -6224,7 +6269,7 @@
             ],
             "id": "got picture",
             "customProperties": {
-                "sourceLocation": 1635,
+                "sourceLocation": 1945,
                 "sourceID": "attack.abc"
             }
         },
@@ -6896,7 +6941,7 @@
             ],
             "id": "no film",
             "customProperties": {
-                "sourceLocation": 1854,
+                "sourceLocation": 2164,
                 "sourceID": "attack.abc"
             }
         },
@@ -7604,7 +7649,7 @@
             ],
             "id": "attack",
             "customProperties": {
-                "sourceLocation": 1966,
+                "sourceLocation": 2276,
                 "sourceID": "attack.abc"
             }
         },
@@ -8261,7 +8306,7 @@
             ],
             "id": "flash hit",
             "customProperties": {
-                "sourceLocation": 2199,
+                "sourceLocation": 2509,
                 "sourceID": "attack.abc"
             }
         },
@@ -8918,14 +8963,14 @@
             ],
             "id": "miss",
             "customProperties": {
-                "sourceLocation": 2391,
+                "sourceLocation": 2701,
                 "sourceID": "attack.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost is blinded and offended by the holy symbol!\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost seems physically assaulted by your attack.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tYou send holy fire through the entity.",
+                    "narration": "<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost is spiritually offended by your attack!\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tThe ghost seems physically assaulted by your attack.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/magic_spells/magic_spells_02'/>\n\t\tYou send ethereal fire through the entity.",
                     "sceneDirections": [
                         {
                             "directionType": "go to",
@@ -9575,7 +9620,7 @@
             ],
             "id": "hit",
             "customProperties": {
-                "sourceLocation": 2825,
+                "sourceLocation": 3135,
                 "sourceID": "attack.abc"
             }
         },
@@ -9599,7 +9644,7 @@
                                     {
                                         "directionType": "condition",
                                         "parameters": {
-                                            "condition": "{ghostHealth} == 0",
+                                            "condition": "{ghostHealth} < 1",
                                             "directions": [
                                                 {
                                                     "directionType": "condition",
@@ -9689,7 +9734,7 @@
                                     {
                                         "directionType": "condition",
                                         "parameters": {
-                                            "condition": "{ghostHealth} == 0",
+                                            "condition": "{ghostHealth} < 1",
                                             "directions": [
                                                 {
                                                     "directionType": "condition",
@@ -10395,7 +10440,7 @@
             ],
             "id": "damage",
             "customProperties": {
-                "sourceLocation": 3231,
+                "sourceLocation": 3541,
                 "sourceID": "attack.abc"
             }
         },
@@ -11049,7 +11094,7 @@
             ],
             "id": "victory",
             "customProperties": {
-                "sourceLocation": 3929,
+                "sourceLocation": 4259,
                 "sourceID": "attack.abc"
             }
         },
@@ -11703,7 +11748,7 @@
             ],
             "id": "failure",
             "customProperties": {
-                "sourceLocation": 4177,
+                "sourceLocation": 4507,
                 "sourceID": "attack.abc"
             }
         },
@@ -12433,7 +12478,7 @@
         {
             "contents": [
                 {
-                    "narration": "Snapping a photo of the ghost will reveal what type it is.  Try looking for better film while you are in the house.",
+                    "narration": "Snapping a photo of the ghost will reveal what type it is.",
                     "sceneDirections": [
                         {
                             "directionType": "set",
@@ -12576,7 +12621,7 @@
                                                     "directionType": "set",
                                                     "parameters": {
                                                         "variableName": "ghostForm",
-                                                        "variableValue": "sarah"
+                                                        "variableValue": "yuki"
                                                     }
                                                 },
                                                 {
@@ -12584,6 +12629,57 @@
                                                     "parameters": {
                                                         "variableName": "formText",
                                                         "variableValue": "The gangly image of an emaciated young women floats before you."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You flip through a scrap book prepared delicately and elaborately by a Miss Yuki Mori. It depicts her senior year in high school before travelling to America to study abroad.  The final page is a photograph of her friends and family, waving farewell as she entered the gate to board her flight.  Everyone is smiling, save for one dreary and exceedingly drab individual at the back of the crowd."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "{'To your surprise, the batteries in a digital camera are sufficient to view the gallery.  The pictures depict a group of college students touring the western United States.  A series of photographs show an asian girl hysterically yelling at a slouching, verily depressed young man.  Next, he is gone from the photos and the girl presumably faints}"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a single, water damaged polaroid.  It is a self-photograph of an asian girl in a bathtub.  She is obviously upset, tears pour from her eyes admist running mascara and saliva dripping from her mouth.  Sitting in the bathtub, behind her, is a young asian man with sallow, ashy skin.  You cannot see his eyes past his thick, wirey, black bangs."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -12607,6 +12703,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "The gluttonous bulk of an old man crawls from within the floor."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "A black and white photograph shows the winners of a local youth bake-off.  First place went to a massive child, easily three times larger than the other children.  He is beaming with joy and satisfaction."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a desk plaque that reads 'An ounce of prevention is worth a pound of cure.' Beneath you find a pocket ledger with diligent, consistent entries for a twelve year span that simply indicates the date and an gradually increasing measure of ounces."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "The newspaper headline reads 'Mother Tortures Son to Lose Weight, Loses Her Life'.  The article depicts approximately 40 years of physical and mental abuse by Mrs. Agnus Hopper upon her son, Frank Hopper.  From the age of nine, she forced him to fillet parts of himself in order to lose weight.  Frank ended up filleting all of his mother's skin and muscle before doing the same to himself."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -12628,6 +12775,57 @@
                                                     "parameters": {
                                                         "variableName": "ghostText",
                                                         "variableValue": "The darting blur of a young man catches your eye as it races from within the wall."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a child's pair of sneakers with silver lightning bolts hand painted on the sides.  The name 'Sam Yonk'is written in black marker on the sole of each shoe, barely visible from use."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "There is a box filled with dusty trophies and medals.  The majority represent first place wins, with an occasional second here and there.  Each one was awarded to the same person, Tom Yonk."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You sit back and load up an 8mm home video found beneath a drawer with a false bottom.  It reveals two boys, one chained to a stone wall and one free and laughing wildly at the captive boy.  They are twins.  The free child is mocking chained boy with a medal while pelting him with pebbles.  Unnervingly, you presume the parents join in, laughing as the boy with the lightning bolt shoes hangs helpless and sobbing."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -12734,6 +12932,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "The darkness of the house coaleses into the blurry, black figure and slowly moves towards you."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "{'You find a participation medal from a 5K run.  An engraving on the back reads \"Barry, How's the hip you sassy quickdraw?\" Your Love Always, Rob.\"}"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "There is a copy of a police report here.  Apparently a Mr. Barry Crawford was severely beaten after leaving a New Year's Eve party.  The attached photos identify the location of multiple wounds, most startling is a crushed and mangled right hand; virtually pulverized."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a .38 revolver of stunning quality in a handmade oak box lined with velvet. A card inside reads 'Make them pay, I know you will not let me down.'"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -12756,6 +13005,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "Your own shadow begins to shake and jitter as it animates and begins running its hands up your body."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "There is a playbill here for the production of 'The Shaming of the True: A Modern Interpretation of an Old Story'.  It stars Miss Sally Hernandez; she adorns the cover in military fatigues, holding a voodoo doll in one hand, a headless unicorn in the other, and a wooden spatula between her teeth."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a crumpled up letter from the Academia de San Carlos in Mexico City. It summarizes that Miss Sally Hernandez was not accepted into the institute. The words \"Beartrap Cougar\" are scratched violently acrossed the page in red marker."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You flip through a file of notes and photographs.  The file was prepared by a private investigator and show the day to day trappings of a young women selling drugs and prostituting herself on the crowded Mexico City streets."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -12776,7 +13076,58 @@
                                                     "directionType": "set",
                                                     "parameters": {
                                                         "variableName": "formText",
-                                                        "variableValue": "Tiny, dark images of people walking briskly began to sprint and combine into a larger and larger figure that encompasses your field of view."
+                                                        "variableValue": "Tiny, dark images of people walking briskly begin to sprint and combine into a larger and larger figure that encompasses your field of view."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a set of souvenir spoons in a glass case.  Each spoon depicts one of the original United States colonies.  It appears that each one has been dipped in a red, waxy substance."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "{'You come across a disiplinary notice for a high school student named Steven Wright.  It summarizes how the school supports Steven's interest in his ancenstral heritage but find the use of 'voodoo' and 'black magic' as distruptive to the school's educational goals and in some instances, biolgically hazardous to the health of the student body}"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You humbly pick up what appears to be a grimoire; a magical tome.  Each page is thoughtfully and patiently scribed in indian ink; instructions for all manner of ritual, hex, incantation, and sorcery.  Much of the book is devoted to specific offerings and prayers to various Haitian Iwa and African Orishas."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -12876,6 +13227,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "The shade of a distressed and frantic women erratically cuts through the air, its eyes black and sullen."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You open a small jewelry box containing a set of wings, some aviator sunglasses, and half of a cigar.  Below these momento is a photograph of a women, probably taken in the late 1960s.  She is standing next to a red, dual-prop aircraft, a lit cigar hanging from a tremendous smile."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a well-crafted, leather journal authored by Jane Blansky.  It is squarely focused on aircrafts and piloting, chronicling her journey to becoming a pilot, the troubles she faced as a women trying to make it as a pilot, and detailed logs of her flights."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a casette tape marked 'July 5, 1981, CVR'.  The final moments of the recorded flight involve a female pilot who is hijacked by three male stoaways.  The recording goes silent as you hear her fighting against the men entering the cockpit."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -12898,6 +13300,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "A young person hides in the corner crying and dissappears as you approach."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You gaze into an intricately crafted snow globe.  It depicts an 'authentic' version of the village for that St. Nicholas was a bishop, Myra.  Looking closely you see that there are no children and all of the adults are crying."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a baseball, seemingly like any other if not to be considered 'vintage'.  It does not feel like a baseball when you hold it; however, and you quickly realize taht is because it is a baseball cover around a ball of maggots."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "Two paintings of the same class of children in front of a one-room school-house hang next to each other.  In one, all the children are headless; in the other, their heads float without bodies, and the school is on fire."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -12919,6 +13372,57 @@
                                                     "parameters": {
                                                         "variableName": "formText",
                                                         "variableValue": "A hideous, pustule and sore-ridden monstrosity turns the corner and begins crawling towards you as it vomits a black, tar-like substance on the floor."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "An employee ID attached to a retractable lanyard is buried under a pile of adult magazines from the late 1980s.  The name reads Carl Carruthers, Janitor at Saint Anastasia's School for Gifted Girls."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a padded case with 32 small jars, each filled with nail clippings.  Each one has a different color and style of ribbon tied to it."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "The prison autopsy report indicates that Mr. Carruthers was found guilty of 33 counts of lewd acts with a minor and sentenced to 165 years in prison.  He was a regular cigar smoker.  He was found dead in his cell due to complications related to late-stage syphilis."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -13018,6 +13522,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "The figure of a veiled women paces calmly before you."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "{'You find a moldy, decaying diary.  Flipping through its musty pages unveils the day to day worries and hopelessness of a woman whose husband is dying.\"}"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a Polaroid photograph taken in the 1980s.  It captures a dashing young man and a fetching young lady at an arcade, playing Pole Position.  They look quite happy."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "Your rummaging uncovers a funeral order of service for a Mr. Robert Townsend, survived by Mrs. Tina Townsend.  They were married for 41 years.  The inky scratches of tears and mascarra have dried like scars throughout the program."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -13040,6 +13595,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "A middle-aged haze of a man manifests and repetatively bangs his head against the wall."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You discover a stack of telephone bills, neatly arranged in an accordian file.  Pulling up a sample reads like an international phonebook with calls to Japan, England, Brazil, Germany, Iceland; among others.  Page upon page of calls at all times of the day and night."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You happen upon a plaque and pen set presented to John Anderson for 57 years at ACME Commercial Real Estate.  The pen set and the placard appear to be made of gold."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You examine a photograph of a family at holiday party.  Three kids and their mother (you assume) sit on a couch next to an elaborately decroated fireplace.  Standing behind them you see a man, obviously upset, yelling into a telephone."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -13061,6 +13667,57 @@
                                                     "parameters": {
                                                         "variableName": "formText",
                                                         "variableValue": "A young man, severed at the waist, continuously tries to lift himself up to walk and pitifully collapses."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a rusty, two-man crosscut saw.  It is still sturday despite its age."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You listen to a recorded message between two employees of the Buck Hanson Lumber Mill and another employee on the receiving end.  The two are heckling the newer and younger employee about an accident at the mill earlier that day."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a newspaper clipping; 'Employees's Jobs Cut Short After Harrasment Claim'.  'YUR NEXT' is scrawled in thick black marker over the newsprint."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -13724,7 +14381,7 @@
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_06'/>\n\t\t{sillyText}. A chill runs up your spine as you feel an oppressve wave of cold grip cross over you.",
+                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_06'/>\n\t\t{sillyText}. A chill runs up your spine as you feel an oppressve wave of cold pass through you.",
                     "sceneDirections": [
                         {
                             "directionType": "set",
@@ -14381,7 +15038,7 @@
             ],
             "id": "blindside",
             "customProperties": {
-                "sourceLocation": 4487,
+                "sourceLocation": 15386,
                 "sourceID": "ghost.abc"
             }
         },
@@ -15059,14 +15716,14 @@
             ],
             "id": "ghost attack",
             "customProperties": {
-                "sourceLocation": 4738,
+                "sourceLocation": 15634,
                 "sourceID": "ghost.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tThe ghost makes physical contact with you, injuring your body.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYou feel cold stabbing pierce your body.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYour vision blurs and your head aches as the entity grips your soul.",
+                    "narration": "<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tThe ghost gouges cold, blistering scratches across you chest.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYou feel you lifeforce dwindle as the entity grabs your heart and clenches its ethereal grasp.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYour vision blurs and your head aches as the entity grips your soul.",
                     "sceneDirections": [
                         {
                             "directionType": "reduce",
@@ -15753,7 +16410,7 @@
             ],
             "id": "ghost hit",
             "customProperties": {
-                "sourceLocation": 5152,
+                "sourceLocation": 16048,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16417,7 +17074,7 @@
             ],
             "id": "light off",
             "customProperties": {
-                "sourceLocation": 5712,
+                "sourceLocation": 16661,
                 "sourceID": "ghost.abc"
             }
         },
@@ -17118,7 +17775,7 @@
             ],
             "id": "ghost miss",
             "customProperties": {
-                "sourceLocation": 5903,
+                "sourceLocation": 16852,
                 "sourceID": "ghost.abc"
             }
         },
@@ -17793,7 +18450,7 @@
             ],
             "id": "choice",
             "customProperties": {
-                "sourceLocation": 6244,
+                "sourceLocation": 17193,
                 "sourceID": "ghost.abc"
             }
         },
@@ -18447,7 +19104,7 @@
             ],
             "id": "dead",
             "customProperties": {
-                "sourceLocation": 6437,
+                "sourceLocation": 17386,
                 "sourceID": "ghost.abc"
             }
         },
@@ -19111,7 +19768,7 @@
             ],
             "id": "no pic",
             "customProperties": {
-                "sourceLocation": 6553,
+                "sourceLocation": 17502,
                 "sourceID": "ghost.abc"
             }
         },
@@ -19864,14 +20521,14 @@
             ],
             "id": "ghost flee",
             "customProperties": {
-                "sourceLocation": 6670,
+                "sourceLocation": 17619,
                 "sourceID": "ghost.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "Be sure to look around for helpful items, especially film, should you run out!",
+                    "narration": "Be sure to check or examine the furniture around the location for helpful items!",
                     "sceneDirections": [
                         {
                             "directionType": "set",
@@ -20204,6 +20861,72 @@
                                                     }
                                                 }
                                             ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "roll dice",
+                            "parameters": {
+                                "diceString": "1D4"
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{rollResult} == 1",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "artifactLocation",
+                                            "variableValue": "stairs"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{rollResult} == 2",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "artifactLocation",
+                                            "variableValue": "living"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{rollResult} == 3",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "artifactLocation",
+                                            "variableValue": "foyer"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{rollResult} == 4",
+                                "directions": [
+                                    {
+                                        "directionType": "set",
+                                        "parameters": {
+                                            "variableName": "artifactLocation",
+                                            "variableValue": "dining"
                                         }
                                     }
                                 ]
@@ -21643,7 +22366,7 @@
             ],
             "id": "set equipment",
             "customProperties": {
-                "sourceLocation": 1464,
+                "sourceLocation": 1736,
                 "sourceID": "items.abc"
             }
         },
@@ -22300,7 +23023,7 @@
             ],
             "id": "need weapon",
             "customProperties": {
-                "sourceLocation": 2582,
+                "sourceLocation": 2854,
                 "sourceID": "items.abc"
             }
         },
@@ -22957,7 +23680,7 @@
             ],
             "id": "weapon got",
             "customProperties": {
-                "sourceLocation": 2635,
+                "sourceLocation": 2907,
                 "sourceID": "items.abc"
             }
         },
@@ -23703,7 +24426,7 @@
             ],
             "id": "items",
             "customProperties": {
-                "sourceLocation": 2718,
+                "sourceLocation": 2990,
                 "sourceID": "items.abc"
             }
         },
@@ -24367,7 +25090,7 @@
             ],
             "id": "watch",
             "customProperties": {
-                "sourceLocation": 3073,
+                "sourceLocation": 3345,
                 "sourceID": "items.abc"
             }
         },
@@ -25031,7 +25754,7 @@
             ],
             "id": "film",
             "customProperties": {
-                "sourceLocation": 3300,
+                "sourceLocation": 3572,
                 "sourceID": "items.abc"
             }
         },
@@ -25695,7 +26418,7 @@
             ],
             "id": "ring",
             "customProperties": {
-                "sourceLocation": 3392,
+                "sourceLocation": 3664,
                 "sourceID": "items.abc"
             }
         },
@@ -26359,7 +27082,7 @@
             ],
             "id": "sacred text",
             "customProperties": {
-                "sourceLocation": 3710,
+                "sourceLocation": 3982,
                 "sourceID": "items.abc"
             }
         },
@@ -27023,7 +27746,7 @@
             ],
             "id": "medicine",
             "customProperties": {
-                "sourceLocation": 3977,
+                "sourceLocation": 4249,
                 "sourceID": "items.abc"
             }
         },
@@ -27694,7 +28417,7 @@
             ],
             "id": "pendant",
             "customProperties": {
-                "sourceLocation": 4147,
+                "sourceLocation": 4419,
                 "sourceID": "items.abc"
             }
         },
@@ -28355,7 +29078,7 @@
             ],
             "id": "battery",
             "customProperties": {
-                "sourceLocation": 4495,
+                "sourceLocation": 4767,
                 "sourceID": "items.abc"
             }
         },
@@ -29016,7 +29739,7 @@
             ],
             "id": "super film",
             "customProperties": {
-                "sourceLocation": 4664,
+                "sourceLocation": 4936,
                 "sourceID": "items.abc"
             }
         },
@@ -29673,7 +30396,7 @@
             ],
             "id": "nothing",
             "customProperties": {
-                "sourceLocation": 4811,
+                "sourceLocation": 5083,
                 "sourceID": "items.abc"
             }
         },
@@ -30330,7 +31053,7 @@
             ],
             "id": "no paper",
             "customProperties": {
-                "sourceLocation": 5193,
+                "sourceLocation": 5465,
                 "sourceID": "items.abc"
             }
         },
@@ -30987,7 +31710,7 @@
             ],
             "id": "got paper",
             "customProperties": {
-                "sourceLocation": 5335,
+                "sourceLocation": 5607,
                 "sourceID": "items.abc"
             }
         },
@@ -31651,7 +32374,7 @@
             ],
             "id": "baton",
             "customProperties": {
-                "sourceLocation": 5561,
+                "sourceLocation": 5833,
                 "sourceID": "items.abc"
             }
         },
@@ -32308,7 +33031,7 @@
             ],
             "id": "no sense",
             "customProperties": {
-                "sourceLocation": 5728,
+                "sourceLocation": 6000,
                 "sourceID": "items.abc"
             }
         },
@@ -32965,7 +33688,7 @@
             ],
             "id": "sense",
             "customProperties": {
-                "sourceLocation": 5809,
+                "sourceLocation": 6081,
                 "sourceID": "items.abc"
             }
         },
@@ -33637,7 +34360,7 @@
             ],
             "id": "baton attack",
             "customProperties": {
-                "sourceLocation": 5967,
+                "sourceLocation": 6239,
                 "sourceID": "items.abc"
             }
         },
@@ -34294,7 +35017,7 @@
             ],
             "id": "void baton",
             "customProperties": {
-                "sourceLocation": 6213,
+                "sourceLocation": 6485,
                 "sourceID": "items.abc"
             }
         },
@@ -34951,7 +35674,7 @@
             ],
             "id": "no baton",
             "customProperties": {
-                "sourceLocation": 6401,
+                "sourceLocation": 6673,
                 "sourceID": "items.abc"
             }
         },
@@ -35615,7 +36338,7 @@
             ],
             "id": "flash off",
             "customProperties": {
-                "sourceLocation": 6470,
+                "sourceLocation": 6742,
                 "sourceID": "items.abc"
             }
         },
@@ -36279,7 +37002,7 @@
             ],
             "id": "flash on",
             "customProperties": {
-                "sourceLocation": 6658,
+                "sourceLocation": 6930,
                 "sourceID": "items.abc"
             }
         },
@@ -36973,7 +37696,7 @@
             ],
             "id": "other light",
             "customProperties": {
-                "sourceLocation": 6844,
+                "sourceLocation": 7116,
                 "sourceID": "items.abc"
             }
         },
@@ -37078,6 +37801,26 @@
                             "parameters": {
                                 "variableName": "sillyText",
                                 "variableValue": "The air shifts around you."
+                            }
+                        },
+                        {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "firstContact",
+                                "variableValue": "The entity is before you!"
+                            }
+                        },
+                        {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "combatPhoto",
+                                "variableValue": "Snap the photo."
+                            }
+                        },
+                        {
+                            "directionType": "flag",
+                            "parameters": {
+                                "variableName": "artifactText"
                             }
                         },
                         {
@@ -38406,7 +39149,7 @@
             ],
             "id": "set location",
             "customProperties": {
-                "sourceLocation": 900,
+                "sourceLocation": 1009,
                 "sourceID": "story.abc"
             }
         },
@@ -39278,7 +40021,7 @@
             ],
             "id": "map",
             "customProperties": {
-                "sourceLocation": 1177,
+                "sourceLocation": 1286,
                 "sourceID": "story.abc"
             }
         },
@@ -39935,7 +40678,7 @@
             ],
             "id": "living intro",
             "customProperties": {
-                "sourceLocation": 1815,
+                "sourceLocation": 1924,
                 "sourceID": "story.abc"
             }
         },
@@ -40592,7 +41335,7 @@
             ],
             "id": "living room",
             "customProperties": {
-                "sourceLocation": 2107,
+                "sourceLocation": 2216,
                 "sourceID": "story.abc"
             }
         },
@@ -40701,7 +41444,7 @@
                                     {
                                         "directionType": "set",
                                         "parameters": {
-                                            "variableName": "{livingTable}",
+                                            "variableName": "livingTable",
                                             "variableValue": "The coffee table here has been looked over."
                                         }
                                     },
@@ -40722,6 +41465,42 @@
                                                     "parameters": {
                                                         "target": "super film",
                                                         "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{artifactText}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{artifactLocation} == 'living'",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "unflag",
+                                                                "parameters": {
+                                                                    "variableName": "artifactText"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifactLocation",
+                                                                    "variableValue": "done"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "save and go",
+                                                                "parameters": {
+                                                                    "target": "artifactReveal",
+                                                                    "targetSceneProperty": "narration"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -41425,7 +42204,7 @@
             ],
             "id": "living event",
             "customProperties": {
-                "sourceLocation": 2227,
+                "sourceLocation": 2336,
                 "sourceID": "story.abc"
             }
         },
@@ -42082,7 +42861,7 @@
             ],
             "id": "no access",
             "customProperties": {
-                "sourceLocation": 3448,
+                "sourceLocation": 3715,
                 "sourceID": "story.abc"
             }
         },
@@ -42739,7 +43518,7 @@
             ],
             "id": "dining intro",
             "customProperties": {
-                "sourceLocation": 3596,
+                "sourceLocation": 3863,
                 "sourceID": "story.abc"
             }
         },
@@ -43396,7 +44175,7 @@
             ],
             "id": "dining room",
             "customProperties": {
-                "sourceLocation": 3839,
+                "sourceLocation": 4106,
                 "sourceID": "story.abc"
             }
         },
@@ -43486,6 +44265,42 @@
                                                     "parameters": {
                                                         "target": "super film",
                                                         "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{artifactText}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{artifactLocation} == 'dining'",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "unflag",
+                                                                "parameters": {
+                                                                    "variableName": "artifactText"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifactLocation",
+                                                                    "variableValue": "done"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "save and go",
+                                                                "parameters": {
+                                                                    "target": "artifactReveal",
+                                                                    "targetSceneProperty": "narration"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -44228,7 +45043,7 @@
             ],
             "id": "dining event",
             "customProperties": {
-                "sourceLocation": 3966,
+                "sourceLocation": 4233,
                 "sourceID": "story.abc"
             }
         },
@@ -44885,7 +45700,7 @@
             ],
             "id": "foyer intro",
             "customProperties": {
-                "sourceLocation": 4719,
+                "sourceLocation": 5146,
                 "sourceID": "story.abc"
             }
         },
@@ -45542,7 +46357,7 @@
             ],
             "id": "foyer",
             "customProperties": {
-                "sourceLocation": 4981,
+                "sourceLocation": 5408,
                 "sourceID": "story.abc"
             }
         },
@@ -45600,6 +46415,42 @@
                                     {
                                         "directionType": "condition",
                                         "parameters": {
+                                            "condition": "{artifactText}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{artifactLocation} == 'stairs'",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "unflag",
+                                                                "parameters": {
+                                                                    "variableName": "artifactText"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifactLocation",
+                                                                    "variableValue": "done"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "save and go",
+                                                                "parameters": {
+                                                                    "target": "artifactReveal",
+                                                                    "targetSceneProperty": "narration"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
                                             "condition": "{foyerItem} == 1",
                                             "directions": [
                                                 {
@@ -45640,7 +46491,7 @@
                                     "go to kitchen",
                                     "go kitchen",
                                     "into the kitchen",
-                                    "the kitchen"
+                                    "the kitchen\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ten"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -46387,7 +47238,7 @@
             ],
             "id": "foyer event",
             "customProperties": {
-                "sourceLocation": 5098,
+                "sourceLocation": 5525,
                 "sourceID": "story.abc"
             }
         },
@@ -47161,7 +48012,7 @@
             ],
             "id": "lastLocation",
             "customProperties": {
-                "sourceLocation": 5797,
+                "sourceLocation": 6403,
                 "sourceID": "story.abc"
             }
         },
@@ -47815,7 +48666,7 @@
             ],
             "id": "flash remind",
             "customProperties": {
-                "sourceLocation": 6252,
+                "sourceLocation": 6858,
                 "sourceID": "story.abc"
             }
         },
@@ -48472,7 +49323,7 @@
             ],
             "id": "kitchen intro",
             "customProperties": {
-                "sourceLocation": 6366,
+                "sourceLocation": 6972,
                 "sourceID": "story.abc"
             }
         },
@@ -49129,7 +49980,7 @@
             ],
             "id": "kitchen",
             "customProperties": {
-                "sourceLocation": 6583,
+                "sourceLocation": 7189,
                 "sourceID": "story.abc"
             }
         },
@@ -50023,7 +50874,7 @@
             ],
             "id": "kitchen event",
             "customProperties": {
-                "sourceLocation": 6701,
+                "sourceLocation": 7307,
                 "sourceID": "story.abc"
             }
         },
@@ -50680,7 +51531,7 @@
             ],
             "id": "patio intro",
             "customProperties": {
-                "sourceLocation": 7682,
+                "sourceLocation": 8288,
                 "sourceID": "story.abc"
             }
         },
@@ -51337,7 +52188,7 @@
             ],
             "id": "patio",
             "customProperties": {
-                "sourceLocation": 7887,
+                "sourceLocation": 8493,
                 "sourceID": "story.abc"
             }
         },
@@ -52186,7 +53037,7 @@
             ],
             "id": "patio event",
             "customProperties": {
-                "sourceLocation": 7980,
+                "sourceLocation": 8586,
                 "sourceID": "story.abc"
             }
         },
@@ -52843,7 +53694,7 @@
             ],
             "id": "stairs intro",
             "customProperties": {
-                "sourceLocation": 8793,
+                "sourceLocation": 9399,
                 "sourceID": "story.abc"
             }
         },
@@ -53500,7 +54351,7 @@
             ],
             "id": "stairs",
             "customProperties": {
-                "sourceLocation": 9026,
+                "sourceLocation": 9632,
                 "sourceID": "story.abc"
             }
         },
@@ -53617,7 +54468,7 @@
                                                     "directionType": "set",
                                                     "parameters": {
                                                         "variableName": "filmLocation",
-                                                        "variableValue": "99"
+                                                        "variableValue": "9"
                                                     }
                                                 },
                                                 {
@@ -53625,6 +54476,42 @@
                                                     "parameters": {
                                                         "target": "super film",
                                                         "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{artifactText}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{artifactLocation} == 'stairs'",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "unflag",
+                                                                "parameters": {
+                                                                    "variableName": "artifactText"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifactLocation",
+                                                                    "variableValue": "done"
+                                                                }
+                                                            },
+                                                            {
+                                                                "directionType": "save and go",
+                                                                "parameters": {
+                                                                    "target": "artifactReveal",
+                                                                    "targetSceneProperty": "narration"
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -53660,7 +54547,7 @@
                                                 {
                                                     "directionType": "set",
                                                     "parameters": {
-                                                        "variableName": "stairItem",
+                                                        "variableName": "stairsItem",
                                                         "variableValue": "0"
                                                     }
                                                 },
@@ -54328,7 +55215,661 @@
             ],
             "id": "stairs event",
             "customProperties": {
-                "sourceLocation": 9128,
+                "sourceLocation": 9734,
+                "sourceID": "story.abc"
+            }
+        },
+        {
+            "contents": [
+                {
+                    "narration": "{artifact}",
+                    "sceneDirections": [
+                        {
+                            "directionType": "return",
+                            "parameters": {}
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{start}",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{pat} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d6"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "9"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "4"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "1"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 4",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "10"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 5",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "9"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 6",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "11"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "use pendant",
+                                    "pendant",
+                                    "try pendant"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{pendant} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "location",
+                                                        "variableValue": "0"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "map",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no baton",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexaIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "use baton",
+                                    "try baton",
+                                    "baton"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{baton} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{ghostLocation} == {location}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "baton attack",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "void baton",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no baton",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexbIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "look around",
+                                    "look at room",
+                                    "look"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "map",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexcIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "turn on flashlight",
+                                    "flashlight",
+                                    "turn off flashlight",
+                                    "use flashlight"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{flashlight} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "flash off",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "flash on",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexdIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "start over",
+                                    "restart"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "restart",
+                                        "parameters": {},
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.StartOverIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "repeat"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "repeat",
+                                        "parameters": {},
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.RepeatIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "help"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "help",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.HelpIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "go back"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "back",
+                                        "parameters": {
+                                            "count": 1
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.PreviousIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "!{helped}",
+                                "directions": [
+                                    {
+                                        "directionType": "choice",
+                                        "parameters": {
+                                            "utterances": [
+                                                "*"
+                                            ],
+                                            "saveToHistory": "true",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "help",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ],
+                                            "utteranceIDs": []
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{paper} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{location} == !{ghostLocation}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 0",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "foyer"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 1",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "kitchen"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 4",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "stairs"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 10",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "living room"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 9",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "patio"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 11",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "dining room"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "sense",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{location} == {ghostLocation}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "sillyText",
+                                                                    "variableValue": "The entity is in the room!"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "blindside",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no sense",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexeIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "go to bathroom",
+                                    "use the bathroom",
+                                    "to the bathroom",
+                                    "bathroom",
+                                    "where is the bathroom",
+                                    "restroom",
+                                    "use the restroom",
+                                    "to the restroom",
+                                    "where is the restroom",
+                                    "toilet",
+                                    "use the toilet",
+                                    "go to toilet",
+                                    "where is the toilet"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "pause",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexfIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        }
+                    ]
+                }
+            ],
+            "id": "artifactReveal",
+            "customProperties": {
+                "sourceLocation": 10545,
                 "sourceID": "story.abc"
             }
         },
@@ -54341,7 +55882,7 @@
             ],
             "id": "global prepend",
             "customProperties": {
-                "sourceLocation": 9915,
+                "sourceLocation": 10731,
                 "sourceID": "story.abc"
             }
         },
@@ -54991,7 +56532,7 @@
             ],
             "id": "global append",
             "customProperties": {
-                "sourceLocation": 10069,
+                "sourceLocation": 10885,
                 "sourceID": "story.abc"
             }
         },
@@ -55652,7 +57193,7 @@
             ],
             "id": "their here",
             "customProperties": {
-                "sourceLocation": 12556,
+                "sourceLocation": 13372,
                 "sourceID": "story.abc"
             }
         },
@@ -56306,7 +57847,7 @@
             ],
             "id": "pause",
             "customProperties": {
-                "sourceLocation": 12978,
+                "sourceLocation": 13794,
                 "sourceID": "story.abc"
             }
         },
@@ -56974,7 +58515,7 @@
             ],
             "id": "end",
             "customProperties": {
-                "sourceLocation": 13073,
+                "sourceLocation": 13889,
                 "sourceID": "story.abc"
             }
         },
@@ -57637,7 +59178,7 @@
             ],
             "id": "help",
             "customProperties": {
-                "sourceLocation": 13196,
+                "sourceLocation": 14012,
                 "sourceID": "story.abc"
             }
         },
@@ -58326,7 +59867,7 @@
             ],
             "id": "resume",
             "customProperties": {
-                "sourceLocation": 13676,
+                "sourceLocation": 14492,
                 "sourceID": "story.abc"
             }
         }
@@ -58482,7 +60023,8 @@
                         "go to kitchen",
                         "the kitchen",
                         "go kitchen",
-                        "into the kitchen"
+                        "into the kitchen",
+                        "the kitchen\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ten"
                     ]
                 },
                 {

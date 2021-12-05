@@ -12478,7 +12478,7 @@
         {
             "contents": [
                 {
-                    "narration": "Snapping a photo of the ghost will reveal what type it is.  Try looking for better film while you are in the house.",
+                    "narration": "Snapping a photo of the ghost will reveal what type it is.",
                     "sceneDirections": [
                         {
                             "directionType": "set",
@@ -12551,13 +12551,6 @@
                                         }
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            "directionType": "set",
-                            "parameters": {
-                                "variableName": "ghostType",
-                                "variableValue": "apparition"
                             }
                         },
                         {
@@ -12653,7 +12646,7 @@
                                                                 "directionType": "set",
                                                                 "parameters": {
                                                                     "variableName": "artifact",
-                                                                    "variableValue": "You flip through a scrap book prepared delicately and elaborately by a Miss Yuki Mori. It depicts her senior year in high school before travelling to America to study abroad.  The final page is a photograph of her friends and family, waving farewell as she was entering the gate to board her flight to the United States.  Everyone is smiling, save for one dreary and exceedingly drab individual at the back of the crowd."
+                                                                    "variableValue": "You flip through a scrap book prepared delicately and elaborately by a Miss Yuki Mori. It depicts her senior year in high school before travelling to America to study abroad.  The final page is a photograph of her friends and family, waving farewell as she entered the gate to board her flight.  Everyone is smiling, save for one dreary and exceedingly drab individual at the back of the crowd."
                                                                 }
                                                             }
                                                         ]
@@ -12668,7 +12661,7 @@
                                                                 "directionType": "set",
                                                                 "parameters": {
                                                                     "variableName": "artifact",
-                                                                    "variableValue": "{'To your surprise, the batteries in a digital camera are sufficient to view the gallery.  The pictures depict a group of college students touring the western United States.  A series of photographs show an asian girl hysterically yelling at a slouching, verily depressed young man.  Then he was gone and the girl presumably fainted}"
+                                                                    "variableValue": "{'To your surprise, the batteries in a digital camera are sufficient to view the gallery.  The pictures depict a group of college students touring the western United States.  A series of photographs show an asian girl hysterically yelling at a slouching, verily depressed young man.  Next, he is gone from the photos and the girl presumably faints}"
                                                                 }
                                                             }
                                                         ]
@@ -13307,6 +13300,57 @@
                                                         "variableName": "formText",
                                                         "variableValue": "A young person hides in the corner crying and dissappears as you approach."
                                                     }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You gaze into an intricately crafted snow globe.  It depicts an 'authentic' version of the village for that St. Nicholas was a bishop, Myra.  Looking closely you see that there are no children and all of the adults are crying."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a baseball, seemingly like any other if not to be considered 'vintage'.  It does not feel like a baseball when you hold it; however, and you quickly realize taht is because it is a baseball cover around a ball of maggots."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "Two paintings of the same class of children in front of a one-room school-house hang next to each other.  In one, all the children are headless; in the other, their heads float without bodies, and the school is on fire."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -13328,6 +13372,57 @@
                                                     "parameters": {
                                                         "variableName": "formText",
                                                         "variableValue": "A hideous, pustule and sore-ridden monstrosity turns the corner and begins crawling towards you as it vomits a black, tar-like substance on the floor."
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d3"
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "An employee ID attached to a retractable lanyard is buried under a pile of adult magazines from the late 1980s.  The name reads Carl Carruthers, Janitor at Saint Anastasia's School for Gifted Girls."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "You find a padded case with 32 small jars, each filled with nail clippings.  Each one has a different color and style of ribbon tied to it."
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "artifact",
+                                                                    "variableValue": "The prison autopsy report indicates that Mr. Carruthers was found guilty of 33 counts of lewd acts with a minor and sentenced to 165 years in prison.  He was a regular cigar smoker.  He was found dead in his cell due to complications related to late-stage syphilis."
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 }
                                             ]
@@ -14286,7 +14381,7 @@
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_06'/>\n\t\t{sillyText}. A chill runs up your spine as you feel an oppressve wave of cold grip cross over you.",
+                    "narration": "<audio src='soundbank://soundlibrary/horror/horror_06'/>\n\t\t{sillyText}. A chill runs up your spine as you feel an oppressve wave of cold pass through you.",
                     "sceneDirections": [
                         {
                             "directionType": "set",
@@ -14943,7 +15038,7 @@
             ],
             "id": "blindside",
             "customProperties": {
-                "sourceLocation": 13803,
+                "sourceLocation": 15386,
                 "sourceID": "ghost.abc"
             }
         },
@@ -15621,14 +15716,14 @@
             ],
             "id": "ghost attack",
             "customProperties": {
-                "sourceLocation": 14054,
+                "sourceLocation": 15634,
                 "sourceID": "ghost.abc"
             }
         },
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tThe ghost makes physical contact with you, injuring your body.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYou feel cold stabbing pierce your body.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYour vision blurs and your head aches as the entity grips your soul.",
+                    "narration": "<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tThe ghost gouges cold, blistering scratches across you chest.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYou feel you lifeforce dwindle as the entity grabs your heart and clenches its ethereal grasp.\n\t\t||\n\t\t<audio src='soundbank://soundlibrary/nature/amzn_sfx_earthquake_rumble_01'/>\n\t\tYour vision blurs and your head aches as the entity grips your soul.",
                     "sceneDirections": [
                         {
                             "directionType": "reduce",
@@ -16315,7 +16410,7 @@
             ],
             "id": "ghost hit",
             "customProperties": {
-                "sourceLocation": 14468,
+                "sourceLocation": 16048,
                 "sourceID": "ghost.abc"
             }
         },
@@ -16979,7 +17074,7 @@
             ],
             "id": "light off",
             "customProperties": {
-                "sourceLocation": 15028,
+                "sourceLocation": 16661,
                 "sourceID": "ghost.abc"
             }
         },
@@ -17680,7 +17775,7 @@
             ],
             "id": "ghost miss",
             "customProperties": {
-                "sourceLocation": 15219,
+                "sourceLocation": 16852,
                 "sourceID": "ghost.abc"
             }
         },
@@ -18355,7 +18450,7 @@
             ],
             "id": "choice",
             "customProperties": {
-                "sourceLocation": 15560,
+                "sourceLocation": 17193,
                 "sourceID": "ghost.abc"
             }
         },
@@ -19009,7 +19104,7 @@
             ],
             "id": "dead",
             "customProperties": {
-                "sourceLocation": 15753,
+                "sourceLocation": 17386,
                 "sourceID": "ghost.abc"
             }
         },
@@ -19673,7 +19768,7 @@
             ],
             "id": "no pic",
             "customProperties": {
-                "sourceLocation": 15869,
+                "sourceLocation": 17502,
                 "sourceID": "ghost.abc"
             }
         },
@@ -20426,7 +20521,7 @@
             ],
             "id": "ghost flee",
             "customProperties": {
-                "sourceLocation": 15986,
+                "sourceLocation": 17619,
                 "sourceID": "ghost.abc"
             }
         },
@@ -41349,7 +41444,7 @@
                                     {
                                         "directionType": "set",
                                         "parameters": {
-                                            "variableName": "{livingTable}",
+                                            "variableName": "livingTable",
                                             "variableValue": "The coffee table here has been looked over."
                                         }
                                     },
@@ -42766,7 +42861,7 @@
             ],
             "id": "no access",
             "customProperties": {
-                "sourceLocation": 3717,
+                "sourceLocation": 3715,
                 "sourceID": "story.abc"
             }
         },
@@ -43423,7 +43518,7 @@
             ],
             "id": "dining intro",
             "customProperties": {
-                "sourceLocation": 3865,
+                "sourceLocation": 3863,
                 "sourceID": "story.abc"
             }
         },
@@ -44080,7 +44175,7 @@
             ],
             "id": "dining room",
             "customProperties": {
-                "sourceLocation": 4108,
+                "sourceLocation": 4106,
                 "sourceID": "story.abc"
             }
         },
@@ -44948,7 +45043,7 @@
             ],
             "id": "dining event",
             "customProperties": {
-                "sourceLocation": 4235,
+                "sourceLocation": 4233,
                 "sourceID": "story.abc"
             }
         },
@@ -45605,7 +45700,7 @@
             ],
             "id": "foyer intro",
             "customProperties": {
-                "sourceLocation": 5148,
+                "sourceLocation": 5146,
                 "sourceID": "story.abc"
             }
         },
@@ -46262,7 +46357,7 @@
             ],
             "id": "foyer",
             "customProperties": {
-                "sourceLocation": 5410,
+                "sourceLocation": 5408,
                 "sourceID": "story.abc"
             }
         },
@@ -46396,7 +46491,7 @@
                                     "go to kitchen",
                                     "go kitchen",
                                     "into the kitchen",
-                                    "the kitch\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ten"
+                                    "the kitchen\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ten"
                                 ],
                                 "saveToHistory": "true",
                                 "directions": [
@@ -47143,7 +47238,7 @@
             ],
             "id": "foyer event",
             "customProperties": {
-                "sourceLocation": 5527,
+                "sourceLocation": 5525,
                 "sourceID": "story.abc"
             }
         },
@@ -59929,7 +60024,7 @@
                         "the kitchen",
                         "go kitchen",
                         "into the kitchen",
-                        "the kitch\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ten"
+                        "the kitchen\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ten"
                     ]
                 },
                 {

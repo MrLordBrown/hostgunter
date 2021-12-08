@@ -10447,7 +10447,7 @@
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/scifi/amzn_sfx_scifi_zap_backwards_01'/><audio src='soundbank://soundlibrary/gameshow/gameshow_01'/>\n\t\tYou have your photo and the spirit is banished.  Nice work! {description}",
+                    "narration": "<audio src='soundbank://soundlibrary/scifi/amzn_sfx_scifi_zap_backwards_01'/><audio src='soundbank://soundlibrary/gameshow/gameshow_01'/>\n\t\tYou have your photo and the ghost is banished.  Your investigation is a success! {description}",
                     "sceneDirections": [
                         {
                             "directionType": "ending",
@@ -11101,7 +11101,7 @@
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/gameshow/gameshow_02'/>\n\t\tAlthough you banished the spirit, you failed to photograph it and thus you lose.  Too Bad!",
+                    "narration": "<audio src='soundbank://soundlibrary/gameshow/gameshow_02'/>\n\t\tAlthough you banished the entity, you did not photograph it and thus your investigation is a failure.  You are not dead, so that is something!",
                     "sceneDirections": [
                         {
                             "directionType": "ending",
@@ -11748,7 +11748,7 @@
             ],
             "id": "failure",
             "customProperties": {
-                "sourceLocation": 4507,
+                "sourceLocation": 4528,
                 "sourceID": "attack.abc"
             }
         },
@@ -18457,7 +18457,7 @@
         {
             "contents": [
                 {
-                    "narration": "<audio src='soundbank://soundlibrary/gameshow/gameshow_02'/>\n\t\tYou have been killed.",
+                    "narration": "<audio src='soundbank://soundlibrary/gameshow/gameshow_02'/>\n\t\tYou have been killed.  A successful investigation is one where you are alive at the end.",
                     "sceneDirections": [
                         {
                             "directionType": "ending",
@@ -19768,7 +19768,7 @@
             ],
             "id": "no pic",
             "customProperties": {
-                "sourceLocation": 17502,
+                "sourceLocation": 17569,
                 "sourceID": "ghost.abc"
             }
         },
@@ -20521,7 +20521,7 @@
             ],
             "id": "ghost flee",
             "customProperties": {
-                "sourceLocation": 17619,
+                "sourceLocation": 17686,
                 "sourceID": "ghost.abc"
             }
         },
@@ -22366,7 +22366,7 @@
             ],
             "id": "set equipment",
             "customProperties": {
-                "sourceLocation": 1736,
+                "sourceLocation": 1915,
                 "sourceID": "items.abc"
             }
         },
@@ -23023,7 +23023,7 @@
             ],
             "id": "need weapon",
             "customProperties": {
-                "sourceLocation": 2854,
+                "sourceLocation": 3033,
                 "sourceID": "items.abc"
             }
         },
@@ -23680,7 +23680,7 @@
             ],
             "id": "weapon got",
             "customProperties": {
-                "sourceLocation": 2907,
+                "sourceLocation": 3086,
                 "sourceID": "items.abc"
             }
         },
@@ -24426,7 +24426,7 @@
             ],
             "id": "items",
             "customProperties": {
-                "sourceLocation": 2990,
+                "sourceLocation": 3169,
                 "sourceID": "items.abc"
             }
         },
@@ -25090,7 +25090,7 @@
             ],
             "id": "watch",
             "customProperties": {
-                "sourceLocation": 3345,
+                "sourceLocation": 3524,
                 "sourceID": "items.abc"
             }
         },
@@ -25754,7 +25754,7 @@
             ],
             "id": "film",
             "customProperties": {
-                "sourceLocation": 3572,
+                "sourceLocation": 3751,
                 "sourceID": "items.abc"
             }
         },
@@ -26418,7 +26418,7 @@
             ],
             "id": "ring",
             "customProperties": {
-                "sourceLocation": 3664,
+                "sourceLocation": 3843,
                 "sourceID": "items.abc"
             }
         },
@@ -27082,7 +27082,7 @@
             ],
             "id": "sacred text",
             "customProperties": {
-                "sourceLocation": 3982,
+                "sourceLocation": 4161,
                 "sourceID": "items.abc"
             }
         },
@@ -27746,7 +27746,7 @@
             ],
             "id": "medicine",
             "customProperties": {
-                "sourceLocation": 4249,
+                "sourceLocation": 4428,
                 "sourceID": "items.abc"
             }
         },
@@ -28417,7 +28417,7 @@
             ],
             "id": "pendant",
             "customProperties": {
-                "sourceLocation": 4419,
+                "sourceLocation": 4598,
                 "sourceID": "items.abc"
             }
         },
@@ -29078,7 +29078,7 @@
             ],
             "id": "battery",
             "customProperties": {
-                "sourceLocation": 4767,
+                "sourceLocation": 4946,
                 "sourceID": "items.abc"
             }
         },
@@ -29739,7 +29739,664 @@
             ],
             "id": "super film",
             "customProperties": {
-                "sourceLocation": 4936,
+                "sourceLocation": 5115,
+                "sourceID": "items.abc"
+            }
+        },
+        {
+            "contents": [
+                {
+                    "narration": "You have already examined this.\n\t\t||\n\t\tYou previously evaluated this.",
+                    "sceneDirections": [
+                        {
+                            "directionType": "go to",
+                            "parameters": {
+                                "target": "map",
+                                "targetSceneProperty": "narration"
+                            }
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "{start}",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{pat} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "roll dice",
+                                                    "parameters": {
+                                                        "diceString": "1d6"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 1",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "9"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 2",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "4"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 3",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "1"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 4",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "10"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 5",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "9"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{rollResult} == 6",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "ghostLocation",
+                                                                    "variableValue": "11"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "use pendant",
+                                    "pendant",
+                                    "try pendant"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{pendant} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "set",
+                                                    "parameters": {
+                                                        "variableName": "location",
+                                                        "variableValue": "0"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "map",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no baton",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexaIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "use baton",
+                                    "try baton",
+                                    "baton"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{baton} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{ghostLocation} == {location}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "baton attack",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "void baton",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no baton",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexbIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "look around",
+                                    "look at room",
+                                    "look"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "map",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexcIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "turn on flashlight",
+                                    "flashlight",
+                                    "turn off flashlight",
+                                    "use flashlight"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{flashlight} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "flash off",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "flash on",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexdIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "start over",
+                                    "restart"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "restart",
+                                        "parameters": {},
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.StartOverIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "repeat"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "repeat",
+                                        "parameters": {},
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.RepeatIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "help"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "help",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.HelpIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "go back"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "back",
+                                        "parameters": {
+                                            "count": 1
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "AMAZON.PreviousIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "condition",
+                            "parameters": {
+                                "condition": "!{helped}",
+                                "directions": [
+                                    {
+                                        "directionType": "choice",
+                                        "parameters": {
+                                            "utterances": [
+                                                "*"
+                                            ],
+                                            "saveToHistory": "true",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "help",
+                                                        "targetSceneProperty": "narration"
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ],
+                                            "utteranceIDs": []
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "locate ghost",
+                                    "locate the ghost",
+                                    "find the ghost",
+                                    "find ghost",
+                                    "sense ghost",
+                                    "sense the ghost"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{paper} == 1",
+                                            "directions": [
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{location} == !{ghostLocation}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 0",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "foyer"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 1",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "kitchen"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 4",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "stairs"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 10",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "living room"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 9",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "patio"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "condition",
+                                                                "parameters": {
+                                                                    "condition": "{ghostLocation} == 11",
+                                                                    "directions": [
+                                                                        {
+                                                                            "directionType": "set",
+                                                                            "parameters": {
+                                                                                "variableName": "sense",
+                                                                                "variableValue": "dining room"
+                                                                            },
+                                                                            "sourceScene": "global append"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "sense",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                },
+                                                {
+                                                    "directionType": "condition",
+                                                    "parameters": {
+                                                        "condition": "{location} == {ghostLocation}",
+                                                        "directions": [
+                                                            {
+                                                                "directionType": "set",
+                                                                "parameters": {
+                                                                    "variableName": "sillyText",
+                                                                    "variableValue": "The entity is in the room!"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            },
+                                                            {
+                                                                "directionType": "go to",
+                                                                "parameters": {
+                                                                    "target": "blindside",
+                                                                    "targetSceneProperty": "narration"
+                                                                },
+                                                                "sourceScene": "global append"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "sourceScene": "global append"
+                                                }
+                                            ]
+                                        },
+                                        "sourceScene": "global append"
+                                    },
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "no sense",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexeIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        },
+                        {
+                            "directionType": "choice",
+                            "parameters": {
+                                "utterances": [
+                                    "go to bathroom",
+                                    "use the bathroom",
+                                    "to the bathroom",
+                                    "bathroom",
+                                    "where is the bathroom",
+                                    "restroom",
+                                    "use the restroom",
+                                    "to the restroom",
+                                    "where is the restroom",
+                                    "toilet",
+                                    "use the toilet",
+                                    "go to toilet",
+                                    "where is the toilet"
+                                ],
+                                "saveToHistory": "true",
+                                "directions": [
+                                    {
+                                        "directionType": "go to",
+                                        "parameters": {
+                                            "target": "pause",
+                                            "targetSceneProperty": "narration"
+                                        },
+                                        "sourceScene": "global append"
+                                    }
+                                ],
+                                "utteranceIDs": [
+                                    "flexfIntent"
+                                ]
+                            },
+                            "sourceScene": "global append"
+                        }
+                    ]
+                }
+            ],
+            "id": "already",
+            "customProperties": {
+                "sourceLocation": 5262,
                 "sourceID": "items.abc"
             }
         },
@@ -30396,7 +31053,7 @@
             ],
             "id": "nothing",
             "customProperties": {
-                "sourceLocation": 5083,
+                "sourceLocation": 5365,
                 "sourceID": "items.abc"
             }
         },
@@ -31053,7 +31710,7 @@
             ],
             "id": "no paper",
             "customProperties": {
-                "sourceLocation": 5465,
+                "sourceLocation": 5746,
                 "sourceID": "items.abc"
             }
         },
@@ -31710,7 +32367,7 @@
             ],
             "id": "got paper",
             "customProperties": {
-                "sourceLocation": 5607,
+                "sourceLocation": 5888,
                 "sourceID": "items.abc"
             }
         },
@@ -32374,7 +33031,7 @@
             ],
             "id": "baton",
             "customProperties": {
-                "sourceLocation": 5833,
+                "sourceLocation": 6114,
                 "sourceID": "items.abc"
             }
         },
@@ -33031,7 +33688,7 @@
             ],
             "id": "no sense",
             "customProperties": {
-                "sourceLocation": 6000,
+                "sourceLocation": 6281,
                 "sourceID": "items.abc"
             }
         },
@@ -33688,7 +34345,7 @@
             ],
             "id": "sense",
             "customProperties": {
-                "sourceLocation": 6081,
+                "sourceLocation": 6362,
                 "sourceID": "items.abc"
             }
         },
@@ -34360,7 +35017,7 @@
             ],
             "id": "baton attack",
             "customProperties": {
-                "sourceLocation": 6239,
+                "sourceLocation": 6520,
                 "sourceID": "items.abc"
             }
         },
@@ -35017,7 +35674,7 @@
             ],
             "id": "void baton",
             "customProperties": {
-                "sourceLocation": 6485,
+                "sourceLocation": 6766,
                 "sourceID": "items.abc"
             }
         },
@@ -35674,7 +36331,7 @@
             ],
             "id": "no baton",
             "customProperties": {
-                "sourceLocation": 6673,
+                "sourceLocation": 6954,
                 "sourceID": "items.abc"
             }
         },
@@ -36338,7 +36995,7 @@
             ],
             "id": "flash off",
             "customProperties": {
-                "sourceLocation": 6742,
+                "sourceLocation": 7023,
                 "sourceID": "items.abc"
             }
         },
@@ -37002,7 +37659,7 @@
             ],
             "id": "flash on",
             "customProperties": {
-                "sourceLocation": 6930,
+                "sourceLocation": 7211,
                 "sourceID": "items.abc"
             }
         },
@@ -37696,7 +38353,7 @@
             ],
             "id": "other light",
             "customProperties": {
-                "sourceLocation": 7116,
+                "sourceLocation": 7397,
                 "sourceID": "items.abc"
             }
         },
@@ -37705,6 +38362,13 @@
                 {
                     "narration": "<audio src='soundbank://soundlibrary/horror/horror_12'/>\n\t\tWelcome investigator.  It is time for you to rid this place of its uninvited guest!",
                     "sceneDirections": [
+                        {
+                            "directionType": "set",
+                            "parameters": {
+                                "variableName": "sessionScore",
+                                "variableValue": "0"
+                            }
+                        },
                         {
                             "directionType": "set",
                             "parameters": {
@@ -39149,7 +39813,7 @@
             ],
             "id": "set location",
             "customProperties": {
-                "sourceLocation": 1009,
+                "sourceLocation": 1032,
                 "sourceID": "story.abc"
             }
         },
@@ -40021,7 +40685,7 @@
             ],
             "id": "map",
             "customProperties": {
-                "sourceLocation": 1286,
+                "sourceLocation": 1309,
                 "sourceID": "story.abc"
             }
         },
@@ -40030,6 +40694,12 @@
                 {
                     "narration": "<audio src='soundbank://soundlibrary/footsteps/concrete/concrete_08'/>\n\t\tThis is the living room.  No, it's not called the dead room when ghosts are around. There is a coffee table here.  You can access the foyer and the dining room from here.",
                     "sceneDirections": [
+                        {
+                            "directionType": "custom",
+                            "parameters": {
+                                "customName": "[ss+]"
+                            }
+                        },
                         {
                             "directionType": "go to",
                             "parameters": {
@@ -40678,7 +41348,7 @@
             ],
             "id": "living intro",
             "customProperties": {
-                "sourceLocation": 1924,
+                "sourceLocation": 1947,
                 "sourceID": "story.abc"
             }
         },
@@ -41335,7 +42005,7 @@
             ],
             "id": "living room",
             "customProperties": {
-                "sourceLocation": 2216,
+                "sourceLocation": 2249,
                 "sourceID": "story.abc"
             }
         },
@@ -41442,10 +42112,37 @@
                                 "saveToHistory": "true",
                                 "directions": [
                                     {
+                                        "directionType": "custom",
+                                        "parameters": {
+                                            "customName": "[ss+]"
+                                        }
+                                    },
+                                    {
                                         "directionType": "set",
                                         "parameters": {
                                             "variableName": "livingTable",
                                             "variableValue": "The coffee table here has been looked over."
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{livingChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "livingChecked"
                                         }
                                     },
                                     {
@@ -41481,6 +42178,12 @@
                                                         "condition": "{artifactLocation} == 'living'",
                                                         "directions": [
                                                             {
+                                                                "directionType": "custom",
+                                                                "parameters": {
+                                                                    "customName": "[ss+]"
+                                                                }
+                                                            },
+                                                            {
                                                                 "directionType": "unflag",
                                                                 "parameters": {
                                                                     "variableName": "artifactText"
@@ -41512,6 +42215,12 @@
                                             "condition": "{batteryLocation} == 10",
                                             "directions": [
                                                 {
+                                                    "directionType": "custom",
+                                                    "parameters": {
+                                                        "customName": "[ss+]"
+                                                    }
+                                                },
+                                                {
                                                     "directionType": "set",
                                                     "parameters": {
                                                         "variableName": "batteryLocation",
@@ -41533,6 +42242,12 @@
                                         "parameters": {
                                             "condition": "{livingItem} == 1",
                                             "directions": [
+                                                {
+                                                    "directionType": "custom",
+                                                    "parameters": {
+                                                        "customName": "[ss+]"
+                                                    }
+                                                },
                                                 {
                                                     "directionType": "set",
                                                     "parameters": {
@@ -42204,7 +42919,7 @@
             ],
             "id": "living event",
             "customProperties": {
-                "sourceLocation": 2336,
+                "sourceLocation": 2369,
                 "sourceID": "story.abc"
             }
         },
@@ -42861,7 +43576,7 @@
             ],
             "id": "no access",
             "customProperties": {
-                "sourceLocation": 3715,
+                "sourceLocation": 3863,
                 "sourceID": "story.abc"
             }
         },
@@ -43518,7 +44233,7 @@
             ],
             "id": "dining intro",
             "customProperties": {
-                "sourceLocation": 3863,
+                "sourceLocation": 4011,
                 "sourceID": "story.abc"
             }
         },
@@ -44175,7 +44890,7 @@
             ],
             "id": "dining room",
             "customProperties": {
-                "sourceLocation": 4106,
+                "sourceLocation": 4254,
                 "sourceID": "story.abc"
             }
         },
@@ -44246,6 +44961,27 @@
                                         "parameters": {
                                             "variableName": "diningCabinet",
                                             "variableValue": "The curio cabinet here has been delicately perused."
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{diningChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "diningChecked"
                                         }
                                     },
                                     {
@@ -45043,7 +45779,7 @@
             ],
             "id": "dining event",
             "customProperties": {
-                "sourceLocation": 4233,
+                "sourceLocation": 4381,
                 "sourceID": "story.abc"
             }
         },
@@ -45700,7 +46436,7 @@
             ],
             "id": "foyer intro",
             "customProperties": {
-                "sourceLocation": 5146,
+                "sourceLocation": 5366,
                 "sourceID": "story.abc"
             }
         },
@@ -46357,7 +47093,7 @@
             ],
             "id": "foyer",
             "customProperties": {
-                "sourceLocation": 5408,
+                "sourceLocation": 5629,
                 "sourceID": "story.abc"
             }
         },
@@ -46388,6 +47124,27 @@
                                         "parameters": {
                                             "variableName": "foyerTable",
                                             "variableValue": "The small table here has been gutted."
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{foyerChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "foyerChecked"
                                         }
                                     },
                                     {
@@ -47238,7 +47995,7 @@
             ],
             "id": "foyer event",
             "customProperties": {
-                "sourceLocation": 5525,
+                "sourceLocation": 5746,
                 "sourceID": "story.abc"
             }
         },
@@ -48012,7 +48769,7 @@
             ],
             "id": "lastLocation",
             "customProperties": {
-                "sourceLocation": 6403,
+                "sourceLocation": 6690,
                 "sourceID": "story.abc"
             }
         },
@@ -48666,7 +49423,7 @@
             ],
             "id": "flash remind",
             "customProperties": {
-                "sourceLocation": 6858,
+                "sourceLocation": 7145,
                 "sourceID": "story.abc"
             }
         },
@@ -49323,7 +50080,7 @@
             ],
             "id": "kitchen intro",
             "customProperties": {
-                "sourceLocation": 6972,
+                "sourceLocation": 7259,
                 "sourceID": "story.abc"
             }
         },
@@ -49980,7 +50737,7 @@
             ],
             "id": "kitchen",
             "customProperties": {
-                "sourceLocation": 7189,
+                "sourceLocation": 7476,
                 "sourceID": "story.abc"
             }
         },
@@ -50056,6 +50813,27 @@
                                     {
                                         "directionType": "condition",
                                         "parameters": {
+                                            "condition": "{paperChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "paperChecked"
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
                                             "condition": "{kitchenItem} == 2",
                                             "directions": [
                                                 {
@@ -50114,6 +50892,27 @@
                                         "parameters": {
                                             "variableName": "woodBox",
                                             "variableValue": "The box here has been rummaged through."
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{woodChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "woodChecked"
                                         }
                                     },
                                     {
@@ -50874,7 +51673,7 @@
             ],
             "id": "kitchen event",
             "customProperties": {
-                "sourceLocation": 7307,
+                "sourceLocation": 7594,
                 "sourceID": "story.abc"
             }
         },
@@ -51531,7 +52330,7 @@
             ],
             "id": "patio intro",
             "customProperties": {
-                "sourceLocation": 8288,
+                "sourceLocation": 8701,
                 "sourceID": "story.abc"
             }
         },
@@ -52188,7 +52987,7 @@
             ],
             "id": "patio",
             "customProperties": {
-                "sourceLocation": 8493,
+                "sourceLocation": 8906,
                 "sourceID": "story.abc"
             }
         },
@@ -52260,6 +53059,27 @@
                                         "parameters": {
                                             "variableName": "vase",
                                             "variableValue": "The vase here has been scoured."
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{vaseChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "vaseChecked"
                                         }
                                     },
                                     {
@@ -52337,6 +53157,27 @@
                                         "parameters": {
                                             "variableName": "chest",
                                             "variableValue": "The chest here has been emptied."
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{chestChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "chestChecked"
                                         }
                                     },
                                     {
@@ -53037,7 +53878,7 @@
             ],
             "id": "patio event",
             "customProperties": {
-                "sourceLocation": 8586,
+                "sourceLocation": 8999,
                 "sourceID": "story.abc"
             }
         },
@@ -53694,7 +54535,7 @@
             ],
             "id": "stairs intro",
             "customProperties": {
-                "sourceLocation": 9399,
+                "sourceLocation": 9938,
                 "sourceID": "story.abc"
             }
         },
@@ -54351,7 +55192,7 @@
             ],
             "id": "stairs",
             "customProperties": {
-                "sourceLocation": 9632,
+                "sourceLocation": 10171,
                 "sourceID": "story.abc"
             }
         },
@@ -54457,6 +55298,27 @@
                                         "parameters": {
                                             "variableName": "stairsPainting",
                                             "variableValue": "The painting here as been removed from the wall."
+                                        }
+                                    },
+                                    {
+                                        "directionType": "condition",
+                                        "parameters": {
+                                            "condition": "{paintChecked}",
+                                            "directions": [
+                                                {
+                                                    "directionType": "go to",
+                                                    "parameters": {
+                                                        "target": "already",
+                                                        "targetSceneProperty": "narration"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "directionType": "flag",
+                                        "parameters": {
+                                            "variableName": "paintChecked"
                                         }
                                     },
                                     {
@@ -55215,7 +56077,7 @@
             ],
             "id": "stairs event",
             "customProperties": {
-                "sourceLocation": 9734,
+                "sourceLocation": 10273,
                 "sourceID": "story.abc"
             }
         },
@@ -55869,7 +56731,7 @@
             ],
             "id": "artifactReveal",
             "customProperties": {
-                "sourceLocation": 10545,
+                "sourceLocation": 11150,
                 "sourceID": "story.abc"
             }
         },
@@ -55882,7 +56744,7 @@
             ],
             "id": "global prepend",
             "customProperties": {
-                "sourceLocation": 10731,
+                "sourceLocation": 11336,
                 "sourceID": "story.abc"
             }
         },
@@ -56532,7 +57394,7 @@
             ],
             "id": "global append",
             "customProperties": {
-                "sourceLocation": 10885,
+                "sourceLocation": 11490,
                 "sourceID": "story.abc"
             }
         },
@@ -57193,7 +58055,7 @@
             ],
             "id": "their here",
             "customProperties": {
-                "sourceLocation": 13372,
+                "sourceLocation": 13977,
                 "sourceID": "story.abc"
             }
         },
@@ -57847,7 +58709,7 @@
             ],
             "id": "pause",
             "customProperties": {
-                "sourceLocation": 13794,
+                "sourceLocation": 14399,
                 "sourceID": "story.abc"
             }
         },
@@ -58515,7 +59377,7 @@
             ],
             "id": "end",
             "customProperties": {
-                "sourceLocation": 13889,
+                "sourceLocation": 14494,
                 "sourceID": "story.abc"
             }
         },
@@ -59178,7 +60040,7 @@
             ],
             "id": "help",
             "customProperties": {
-                "sourceLocation": 14012,
+                "sourceLocation": 14617,
                 "sourceID": "story.abc"
             }
         },
@@ -59867,7 +60729,7 @@
             ],
             "id": "resume",
             "customProperties": {
-                "sourceLocation": 14492,
+                "sourceLocation": 15097,
                 "sourceID": "story.abc"
             }
         }

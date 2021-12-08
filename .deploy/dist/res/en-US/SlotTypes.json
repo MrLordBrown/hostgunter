@@ -3,9 +3,5 @@
         "spell",
         "crucifix",
         "totem"
-    ],
-    "livingRoomExits": [
-        "foyer",
-        "dining room"
     ]
 }

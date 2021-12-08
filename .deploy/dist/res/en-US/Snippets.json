@@ -93,5 +93,7 @@
     "d3": "roll 1d3",
     "rr": "if rollResult is",
     "/*": "*say",
-    "/&": "*then"
+    "/&": "*then",
+    "ss+": "increase sessionScore by ",
+    "ss-": "decrease sessionScore by "
 }

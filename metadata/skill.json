@@ -6,8 +6,7 @@
           "summary": "Invetigate a haunted location, search for powerful items, and banish the ghost before it banishes you!",
           "examplePhrases": [
             "Alexa let's play ghost hunter",
-            "Alexa start ghost hunter",
-            "Alexa I want to play ghost hunter"
+            "Alexa start ghost hunter"
           ],
           "name": "ghost hunter",
           "description": "Ghost hunter is a game where you roleplay as a paranormal investigator sent to find and evacuate a ghost from a haunted location.  You start with minimal equipment but can find powerful items at the location.  Your job is to find the ghost, take a photograph of it, and then attack it until it is banished.  There are various types of ghosts that can manifest, some more aggressive than others.  You have the option to flee a battle with a ghost should you be injured but ultimately, either you banish the ghost or you join it on the otherside."

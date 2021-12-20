@@ -67,13 +67,23 @@
                 {
                     "name": "flexgIntent",
                     "samples": [
+                        "what is my score?",
+                        "what's my score?",
+                        "score",
+                        "tally",
+                        "results"
+                    ]
+                },
+                {
+                    "name": "flexhIntent",
+                    "samples": [
                         "attack",
                         "attack it",
                         "kill it"
                     ]
                 },
                 {
-                    "name": "flexhIntent",
+                    "name": "flexiIntent",
                     "samples": [
                         "use camera",
                         "take picture",
@@ -85,13 +95,25 @@
                     ]
                 },
                 {
-                    "name": "flexiIntent",
+                    "name": "flexjIntent",
                     "samples": [
                         "run",
                         "flee",
                         "escape",
                         "get out of here",
                         "leave"
+                    ]
+                },
+                {
+                    "name": "flexkIntent",
+                    "samples": [
+                        "why not?"
+                    ]
+                },
+                {
+                    "name": "flexlIntent",
+                    "samples": [
+                        "nah"
                     ]
                 },
                 {
@@ -110,7 +132,7 @@
                     ]
                 },
                 {
-                    "name": "flexjIntent",
+                    "name": "flexmIntent",
                     "samples": [
                         "foyer",
                         "go to foyer",
@@ -121,7 +143,7 @@
                     ]
                 },
                 {
-                    "name": "flexkIntent",
+                    "name": "flexnIntent",
                     "samples": [
                         "go to dining room",
                         "dining room",
@@ -130,7 +152,7 @@
                     ]
                 },
                 {
-                    "name": "flexlIntent",
+                    "name": "flexoIntent",
                     "samples": [
                         "look at coffee table",
                         "examine coffee table",
@@ -142,7 +164,7 @@
                     ]
                 },
                 {
-                    "name": "flexmIntent",
+                    "name": "flexpIntent",
                     "samples": [
                         "kitchen",
                         "go to kitchen",
@@ -153,7 +175,7 @@
                     ]
                 },
                 {
-                    "name": "flexnIntent",
+                    "name": "flexqIntent",
                     "samples": [
                         "check cabinet",
                         "examine cabinet",
@@ -164,7 +186,7 @@
                     ]
                 },
                 {
-                    "name": "flexoIntent",
+                    "name": "flexrIntent",
                     "samples": [
                         "living room",
                         "go to living room",
@@ -174,7 +196,7 @@
                     ]
                 },
                 {
-                    "name": "flexpIntent",
+                    "name": "flexsIntent",
                     "samples": [
                         "stairs",
                         "use the stairs",
@@ -186,7 +208,7 @@
                     ]
                 },
                 {
-                    "name": "flexqIntent",
+                    "name": "flextIntent",
                     "samples": [
                         "get paper",
                         "pick up paper",
@@ -196,7 +218,7 @@
                     ]
                 },
                 {
-                    "name": "flexrIntent",
+                    "name": "flexuIntent",
                     "samples": [
                         "check box",
                         "look at box",
@@ -208,7 +230,7 @@
                     ]
                 },
                 {
-                    "name": "flexsIntent",
+                    "name": "flexvIntent",
                     "samples": [
                         "check vase",
                         "check large vase",
@@ -219,7 +241,7 @@
                     ]
                 },
                 {
-                    "name": "flextIntent",
+                    "name": "flexwIntent",
                     "samples": [
                         "check chest",
                         "check wooden chest",
@@ -230,7 +252,7 @@
                     ]
                 },
                 {
-                    "name": "flexuIntent",
+                    "name": "flexxIntent",
                     "samples": [
                         "go to patio",
                         "patio",
@@ -238,7 +260,7 @@
                     ]
                 },
                 {
-                    "name": "flexvIntent",
+                    "name": "flexyIntent",
                     "samples": [
                         "look painting",
                         "check painting",
@@ -247,7 +269,7 @@
                     ]
                 },
                 {
-                    "name": "flexwIntent",
+                    "name": "flexzIntent",
                     "samples": [
                         "take a break"
                     ]

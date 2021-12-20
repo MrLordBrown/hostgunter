@@ -94,6 +94,6 @@
     "rr": "if rollResult is",
     "/*": "*say",
     "/&": "*then",
-    "ss+": "increase sessionScore by ",
-    "ss-": "decrease sessionScore by "
+    "su": "increase sessionScore by ",
+    "sd": "decrease sessionScore by "
 }
